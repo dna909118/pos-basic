@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "BYAR-GITHUB-FREE-PRIVATE",
+  "active_provider": "github",
+  "target_repository": "dna909118/pos-basic",
+  "github_plan": "free",
+  "repository_visibility": "private",
+  "protection_mode": "soft_governance",
+  "native_enforcement": {
+    "branch_protection_available": false,
+    "repository_rulesets_available": false,
+    "required_status_checks_enforced": false,
+    "required_pr_review_enforced": false,
+    "direct_push_blocked_by_platform": false,
+    "required_human_approval_enforced_by_platform": false
+  },
+  "operational_controls": {
+    "human_review_required_by_process": true,
+    "human_merge_required_by_process": true,
+    "automatic_merge_authorized": false,
+    "agent_repository_write_authorized": false,
+    "manual_agent_dispatch_only": true,
+    "agent_artifact_only": true,
+    "live_human_and_scope_approval_preflight": true,
+    "ci_required_by_process_not_platform": true
+  },
+  "disclaimer": "Workflow and CI checks are advisory/procedural for merges on GitHub Free private. An authorized write-access user can still push or merge despite failed CI or missing review. Do not represent soft governance as native hard protection.",
+  "gitlab_portability_target": true
+}

@@ -92,6 +92,11 @@ def verify_issue(issue,canonical_id,number,repo,milestone=None):
 def preflight(number,engine,repo,approvers,client):
     if engine not in {'opencode','mini-swe'}:raise GateError('Unrecognized engine')
     if not approvers:raise GateError('Explicit BYAR_HUMAN_APPROVERS allowlist required')
+    # Fail closed if this bundle is dispatched from another repository.
+    sys.path.insert(0, str(ROOT))
+    from tools.github_free_policy import load_policy, expected_repository
+    if not expected_repository(repo,load_policy()):
+        raise GateError('Repository does not match GitHub Free private policy target')
     registry=load('rag/provider_bindings.json')
     if registry.get('active_provider')!='github':raise GateError('GitHub not active')
     byid={x['local_id']:x for x in registry['bindings']}

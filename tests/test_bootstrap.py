@@ -76,7 +76,15 @@ class CanonicalTests(unittest.TestCase):
     def test_no_local_approval(self):
         x=gate.load('rag/provider_bindings.json')
         self.assertEqual(x['active_provider'],'github')
-        self.assertFalse(any(b['status']=='published' for b in x['bindings']))
+        # Provider publication is distinct from authorization to execute work.
+        for binding in x['bindings']:
+            if binding['kind'] not in ('umbrella', 'child'):
+                continue
+            approval = binding['execution_approval']
+            self.assertEqual(approval['state'], 'pending_approval')
+            for key in ('approved_scope_revision', 'approved_scope_sha256',
+                        'evidence_url', 'approved_by', 'verified_at', 'provider'):
+                self.assertIsNone(approval[key], (binding['local_id'], key))
 
 class ApprovalTests(unittest.TestCase):
     def setUp(self):

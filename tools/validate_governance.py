@@ -121,6 +121,12 @@ def validate():
     check("design/BYAR_BARBER_HIFI_TOP_HIERARCHY.png" in cfg["human_only"] and "design/" in cfg["exclude_paths"], "Hi-Fi exclusion missing")
     for name in ["COMPLAIN.md", "rag/complaints.json", "rag/label_assignments.json", "rag/provider_bindings.json"]:
         check(name in cfg["index_sources"], f"Missing RAG index source: {name}")
+    sys.path.insert(0, str(ROOT / "tools"))
+    from github_free_policy import load_policy, validate_policy
+    policy = load_policy(ROOT)
+    dispatch_workflow = (ROOT / '.github/workflows/agent-dispatch.yml').read_text(encoding='utf-8')
+    for error in validate_policy(policy, dispatch_workflow):
+        problems.append('GitHub Free private policy: '+error)
     return problems, {"milestones":len(milestones),"umbrellas":len(umbrellas),"children":len(children),"pr_plans":len(plans),"labels":len(cset),"label_assignments":len(amap),"provider_bindings":len(binding_ids),"recorded_complaints":len(complaints["entries"])}
 
 if __name__ == "__main__":

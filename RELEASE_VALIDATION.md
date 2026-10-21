@@ -55,3 +55,14 @@ The builder contract, CLI and workflow have been added for GitHub Actions; offli
 - Flutter 3.44.0 / Dart 3.12.0 / Mix 2.2.2 are pins **configured** in bundle, not installed or compiled locally.
 - `subosito/flutter-action@v2` and artifact upload must be tested after import in GitHub Actions; no live Flutter CI was executed here.
 - Protected five source files, including Human-only Hi-Fi, remained byte-identical to the original v0.0.8 baseline.
+
+## v0.0.8-r2 — GitHub Free Private soft governance (latest authoritative check)
+
+- Active target configuration: `dna909118/pos-basic` (expected repository identity, **not** evidence of actual live GitHub settings).
+- GitHub remains Free/private. `soft_governance` is the declared mode, not hard branch protection. Native branch rules/rulesets, required PR reviews/status checks and protection against direct pushes are **not available/enforced** at this tier. CI and Human review are procedural requirements; GitHub itself cannot be claimed to block an authorized write-user from bypassing them.
+- GitLab remains the portability target. No automatic merger, publisher, repository write permission for workers, or plan upgrade is authorized.
+- Added `management/providers/github_free_private_policy.json` and `GITHUB_FREE_PRIVATE_GOVERNANCE.md`, repository match preflight, policy-aware governance validator and negative tests for contradictory hard-enforcement claims/write permissions.
+- Actual offline validation on this revision: `python tools/validate_governance.py` **PASS**; `python -m unittest discover -s tests -q` **PASS — 49 tests**; `python tools/bootstrap_check.py` **PASS**; `python tools/flutter_builder.py config` **PASS**; SQLite FTS5 `ready: true`, **104 indexed sources / 414 chunks**, canonical lookup and payment query **PASS**. Counts are derived snapshots and may change after documentation updates.
+- Five protected source assets (TSD, Storyboard, Lo-Fi, Design System and Human-only Hi-Fi) are byte-identical to source v0.0.8-r1. Human-only Hi-Fi was not opened or used for agent context.
+- Flutter SDK and live GitHub Actions compilation, agent inference, provider permission verification and runtime native branch enforcement remain **NOT VERIFIED** by this offline bundle. GitHub account/repository settings were not modified.
+- The above is the **current** r2 validation; historical r1 entries in this document describe previous checkpoints, not current test counts.

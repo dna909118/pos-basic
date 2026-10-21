@@ -33,3 +33,6 @@ No assumption that GitHub sub-issues, GitLab hierarchy, scoped-label enforcement
 8. On provider change, keep canonical IDs, draft text, scope and links, leaving old provider bindings as historical; add new verified target bindings. Never silently import approvals from a different provider.
 
 Human-only Hi-Fi is not indexed, not published by Codex, and cannot alter requirements. `COMPLAIN.md` is a register, not a direct order to create Issues or fix code.
+
+## Active GitHub Free private enforcement boundary (v0.0.8-r2)
+GitHub is the active provider at `dna909118/pos-basic` (intended target), GitLab remains portability only. This bundle declares `soft_governance` for GitHub Free private. Branch protection/rulesets, required CI checks and required PR approvals cannot be enforced natively for this tier; never treat provider permission behavior as if hard branch controls were enabled. Canonical approval comments and runtime preflight are separate execution controls, and Human review-before-merge is procedural. Consult `management/providers/github_free_private_policy.json` before adapting provider workflows. Do not assert equivalent enforcement on GitLab without an independent live audit.
