@@ -7,6 +7,38 @@ on:
 permissions:
   contents: read
 jobs:
+  check-pilot-configuration:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check configuration presence without exposing values
+        env:
+          HAS_HUMAN_APPROVERS: ${{ vars.BYAR_HUMAN_APPROVERS != '' }}
+          HAS_AGENT_MODEL: ${{ vars.BYAR_AGENT_MODEL != '' }}
+          HAS_MODEL_API_KEY: ${{ secrets.BYAR_MODEL_API_KEY != '' }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+
+          checks = {
+              'BYAR_HUMAN_APPROVERS': os.environ['HAS_HUMAN_APPROVERS'] == 'true',
+              'BYAR_AGENT_MODEL': os.environ['HAS_AGENT_MODEL'] == 'true',
+              'BYAR_MODEL_API_KEY': os.environ['HAS_MODEL_API_KEY'] == 'true',
+          }
+          lines = ['## Pilot configuration presence', '', '| Name | Status |', '| --- | --- |']
+          for name, present in checks.items():
+              status = 'AVAILABLE' if present else 'MISSING'
+              print(f'{name}: {status}')
+              level = 'notice' if present else 'error'
+              print(f'::{level} title={name}::{status}')
+              lines.append(f'| {name} | {status} |')
+          lines.extend(['', 'Presence only; API authentication, model availability and execution approval are not tested.'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('\n'.join(lines) + '\n')
+          sys.exit(0 if all(checks.values()) else 1)
+          PY
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
