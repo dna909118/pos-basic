@@ -1,18 +1,18 @@
 {
   "schema_version": "1.1",
   "project": "BYAR BARBER",
-  "status": "draft_only",
+  "status": "partially_published",
   "canonical_id_policy": "Local Mxx / UMB-Mxx / CI-xx / PR-Mxx-DRAFT identifiers are stable; GitHub/GitLab numbers are platform bindings only.",
   "active_provider": "github",
   "bindings": [
     {
       "local_id": "M01",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/1",
+        "number": 1,
+        "verified_at": "2026-10-21T15:16:52.586517+00:00"
       },
       "gitlab": {
         "url": null,
@@ -23,11 +23,11 @@
     {
       "local_id": "M02",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/2",
+        "number": 2,
+        "verified_at": "2026-10-21T15:16:53.552577+00:00"
       },
       "gitlab": {
         "url": null,
@@ -38,11 +38,11 @@
     {
       "local_id": "M03",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/3",
+        "number": 3,
+        "verified_at": "2026-10-21T15:16:54.633909+00:00"
       },
       "gitlab": {
         "url": null,
@@ -53,11 +53,11 @@
     {
       "local_id": "M04",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/4",
+        "number": 4,
+        "verified_at": "2026-10-21T15:16:55.504031+00:00"
       },
       "gitlab": {
         "url": null,
@@ -68,11 +68,11 @@
     {
       "local_id": "M05",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/5",
+        "number": 5,
+        "verified_at": "2026-10-21T15:16:56.721757+00:00"
       },
       "gitlab": {
         "url": null,
@@ -83,11 +83,11 @@
     {
       "local_id": "M06",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/6",
+        "number": 6,
+        "verified_at": "2026-10-21T15:16:57.472710+00:00"
       },
       "gitlab": {
         "url": null,
@@ -98,11 +98,11 @@
     {
       "local_id": "M07",
       "kind": "milestone",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/milestone/7",
+        "number": 7,
+        "verified_at": "2026-10-21T15:16:58.195174+00:00"
       },
       "gitlab": {
         "url": null,
@@ -113,11 +113,11 @@
     {
       "local_id": "UMB-M01",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/2",
+        "number": 2,
+        "verified_at": "2026-10-21T15:16:59.757049+00:00"
       },
       "gitlab": {
         "url": null,
@@ -139,11 +139,11 @@
     {
       "local_id": "UMB-M02",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/3",
+        "number": 3,
+        "verified_at": "2026-10-21T15:17:01.644923+00:00"
       },
       "gitlab": {
         "url": null,
@@ -165,11 +165,11 @@
     {
       "local_id": "UMB-M03",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/4",
+        "number": 4,
+        "verified_at": "2026-10-21T15:17:03.424246+00:00"
       },
       "gitlab": {
         "url": null,
@@ -191,11 +191,11 @@
     {
       "local_id": "UMB-M04",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/5",
+        "number": 5,
+        "verified_at": "2026-10-21T15:17:05.293943+00:00"
       },
       "gitlab": {
         "url": null,
@@ -217,11 +217,11 @@
     {
       "local_id": "UMB-M05",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/6",
+        "number": 6,
+        "verified_at": "2026-10-21T15:17:07.591180+00:00"
       },
       "gitlab": {
         "url": null,
@@ -243,11 +243,11 @@
     {
       "local_id": "UMB-M06",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/7",
+        "number": 7,
+        "verified_at": "2026-10-21T15:17:09.118661+00:00"
       },
       "gitlab": {
         "url": null,
@@ -269,11 +269,11 @@
     {
       "local_id": "UMB-M07",
       "kind": "umbrella",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/8",
+        "number": 8,
+        "verified_at": "2026-10-21T15:17:11.117378+00:00"
       },
       "gitlab": {
         "url": null,
@@ -295,11 +295,11 @@
     {
       "local_id": "CI-01",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/9",
+        "number": 9,
+        "verified_at": "2026-10-21T15:17:12.953745+00:00"
       },
       "gitlab": {
         "url": null,
@@ -322,11 +322,11 @@
     {
       "local_id": "CI-02",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/10",
+        "number": 10,
+        "verified_at": "2026-10-21T15:17:14.926496+00:00"
       },
       "gitlab": {
         "url": null,
@@ -349,11 +349,11 @@
     {
       "local_id": "CI-03",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/11",
+        "number": 11,
+        "verified_at": "2026-10-21T15:17:16.755336+00:00"
       },
       "gitlab": {
         "url": null,
@@ -376,11 +376,11 @@
     {
       "local_id": "CI-04",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/12",
+        "number": 12,
+        "verified_at": "2026-10-21T15:17:18.838363+00:00"
       },
       "gitlab": {
         "url": null,
@@ -403,11 +403,11 @@
     {
       "local_id": "CI-05",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/13",
+        "number": 13,
+        "verified_at": "2026-10-21T15:17:20.804885+00:00"
       },
       "gitlab": {
         "url": null,
@@ -430,11 +430,11 @@
     {
       "local_id": "CI-06",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/14",
+        "number": 14,
+        "verified_at": "2026-10-21T15:17:22.542500+00:00"
       },
       "gitlab": {
         "url": null,
@@ -457,11 +457,11 @@
     {
       "local_id": "CI-07",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/15",
+        "number": 15,
+        "verified_at": "2026-10-21T15:17:24.758496+00:00"
       },
       "gitlab": {
         "url": null,
@@ -484,11 +484,11 @@
     {
       "local_id": "CI-08",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/16",
+        "number": 16,
+        "verified_at": "2026-10-21T15:17:26.851647+00:00"
       },
       "gitlab": {
         "url": null,
@@ -511,11 +511,11 @@
     {
       "local_id": "CI-09",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/17",
+        "number": 17,
+        "verified_at": "2026-10-21T15:17:28.955173+00:00"
       },
       "gitlab": {
         "url": null,
@@ -538,11 +538,11 @@
     {
       "local_id": "CI-10",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/18",
+        "number": 18,
+        "verified_at": "2026-10-21T15:17:31.211995+00:00"
       },
       "gitlab": {
         "url": null,
@@ -565,11 +565,11 @@
     {
       "local_id": "CI-11",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/19",
+        "number": 19,
+        "verified_at": "2026-10-21T15:17:33.053278+00:00"
       },
       "gitlab": {
         "url": null,
@@ -592,11 +592,11 @@
     {
       "local_id": "CI-12",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/20",
+        "number": 20,
+        "verified_at": "2026-10-21T15:17:34.793069+00:00"
       },
       "gitlab": {
         "url": null,
@@ -619,11 +619,11 @@
     {
       "local_id": "CI-13",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/21",
+        "number": 21,
+        "verified_at": "2026-10-21T15:17:37.293058+00:00"
       },
       "gitlab": {
         "url": null,
@@ -646,11 +646,11 @@
     {
       "local_id": "CI-14",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/22",
+        "number": 22,
+        "verified_at": "2026-10-21T15:17:39.226380+00:00"
       },
       "gitlab": {
         "url": null,
@@ -673,11 +673,11 @@
     {
       "local_id": "CI-15",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/23",
+        "number": 23,
+        "verified_at": "2026-10-21T15:17:41.448802+00:00"
       },
       "gitlab": {
         "url": null,
@@ -700,11 +700,11 @@
     {
       "local_id": "CI-16",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/24",
+        "number": 24,
+        "verified_at": "2026-10-21T15:17:43.214643+00:00"
       },
       "gitlab": {
         "url": null,
@@ -727,11 +727,11 @@
     {
       "local_id": "CI-17",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/25",
+        "number": 25,
+        "verified_at": "2026-10-21T15:17:45.019959+00:00"
       },
       "gitlab": {
         "url": null,
@@ -754,11 +754,11 @@
     {
       "local_id": "CI-18",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/26",
+        "number": 26,
+        "verified_at": "2026-10-21T15:17:46.900415+00:00"
       },
       "gitlab": {
         "url": null,
@@ -781,11 +781,11 @@
     {
       "local_id": "CI-19",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/27",
+        "number": 27,
+        "verified_at": "2026-10-21T15:17:48.969531+00:00"
       },
       "gitlab": {
         "url": null,
@@ -808,11 +808,11 @@
     {
       "local_id": "CI-20",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/28",
+        "number": 28,
+        "verified_at": "2026-10-21T15:17:50.570109+00:00"
       },
       "gitlab": {
         "url": null,
@@ -835,11 +835,11 @@
     {
       "local_id": "CI-21",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/29",
+        "number": 29,
+        "verified_at": "2026-10-21T15:17:52.240935+00:00"
       },
       "gitlab": {
         "url": null,
@@ -862,11 +862,11 @@
     {
       "local_id": "CI-22",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/30",
+        "number": 30,
+        "verified_at": "2026-10-21T15:17:53.851164+00:00"
       },
       "gitlab": {
         "url": null,
@@ -889,11 +889,11 @@
     {
       "local_id": "CI-23",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/31",
+        "number": 31,
+        "verified_at": "2026-10-21T15:17:55.594644+00:00"
       },
       "gitlab": {
         "url": null,
@@ -916,11 +916,11 @@
     {
       "local_id": "CI-24",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/32",
+        "number": 32,
+        "verified_at": "2026-10-21T15:17:57.402982+00:00"
       },
       "gitlab": {
         "url": null,
@@ -943,11 +943,11 @@
     {
       "local_id": "CI-25",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/33",
+        "number": 33,
+        "verified_at": "2026-10-21T15:17:59.312339+00:00"
       },
       "gitlab": {
         "url": null,
@@ -970,11 +970,11 @@
     {
       "local_id": "CI-26",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/34",
+        "number": 34,
+        "verified_at": "2026-10-21T15:18:01.032899+00:00"
       },
       "gitlab": {
         "url": null,
@@ -997,11 +997,11 @@
     {
       "local_id": "CI-27",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/35",
+        "number": 35,
+        "verified_at": "2026-10-21T15:18:02.559332+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1024,11 +1024,11 @@
     {
       "local_id": "CI-28",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/36",
+        "number": 36,
+        "verified_at": "2026-10-21T15:18:05.167892+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1051,11 +1051,11 @@
     {
       "local_id": "CI-29",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/37",
+        "number": 37,
+        "verified_at": "2026-10-21T15:18:07.047146+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1078,11 +1078,11 @@
     {
       "local_id": "CI-30",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/38",
+        "number": 38,
+        "verified_at": "2026-10-21T15:18:09.012802+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1105,11 +1105,11 @@
     {
       "local_id": "CI-31",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/39",
+        "number": 39,
+        "verified_at": "2026-10-21T15:18:10.805149+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1132,11 +1132,11 @@
     {
       "local_id": "CI-32",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/40",
+        "number": 40,
+        "verified_at": "2026-10-21T15:18:12.603387+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1159,11 +1159,11 @@
     {
       "local_id": "CI-33",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/41",
+        "number": 41,
+        "verified_at": "2026-10-21T15:18:14.395189+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1186,11 +1186,11 @@
     {
       "local_id": "CI-34",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/42",
+        "number": 42,
+        "verified_at": "2026-10-21T15:18:16.226377+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1213,11 +1213,11 @@
     {
       "local_id": "CI-35",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/43",
+        "number": 43,
+        "verified_at": "2026-10-21T15:18:18.090384+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1240,11 +1240,11 @@
     {
       "local_id": "CI-36",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/44",
+        "number": 44,
+        "verified_at": "2026-10-21T15:18:19.888050+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1267,11 +1267,11 @@
     {
       "local_id": "CI-F01",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/45",
+        "number": 45,
+        "verified_at": "2026-10-21T15:18:22.025693+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1294,11 +1294,11 @@
     {
       "local_id": "CI-F02",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/46",
+        "number": 46,
+        "verified_at": "2026-10-21T15:18:23.874023+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1321,11 +1321,11 @@
     {
       "local_id": "CI-R01",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/47",
+        "number": 47,
+        "verified_at": "2026-10-21T15:18:25.673088+00:00"
       },
       "gitlab": {
         "url": null,
@@ -1348,11 +1348,11 @@
     {
       "local_id": "CI-R02",
       "kind": "child",
-      "status": "not_created",
+      "status": "published",
       "github": {
-        "url": null,
-        "number": null,
-        "verified_at": null
+        "url": "https://github.com/dna909118/pos-basic/issues/48",
+        "number": 48,
+        "verified_at": "2026-10-21T15:18:27.829158+00:00"
       },
       "gitlab": {
         "url": null,
