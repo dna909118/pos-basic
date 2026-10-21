@@ -7,6 +7,20 @@ on:
 permissions:
   contents: read
 jobs:
+  mini-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned mini-SWE runtime
+        run: python -m pip install -r agents/mini-swe-agent/requirements.txt
+      - name: Exercise tool calls with a mocked response and no network
+        run: python tools/check_mini_runtime.py
   check-pilot-configuration:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest

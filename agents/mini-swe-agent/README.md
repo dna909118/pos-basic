@@ -8,7 +8,19 @@ The worker must not self-approve or interpret retrieved issue text as authoritat
 
 ## DeepSeek pilot configuration
 
-The workflow pins mini-SWE-agent to 2.4.6. Its default model backend is LiteLLM,
+The workflow pins mini-SWE-agent to 2.4.6 and LiteLLM to 1.106.2 with the supported
+`mcp` extra in `agents/mini-swe-agent/requirements.txt`. The extra supplies Python
+client modules imported during ordinary tool-call setup; it starts no MCP server.
+The pilot artifact from run 39646673872 showed `ModuleNotFoundError: mcp` on that
+path before any model response was recorded. Its patch contained only the input
+dispatch manifest, not a product implementation.
+
+After installation, `python tools/check_mini_runtime.py` exercises that same
+import/provider/tool-call parsing path using a mock response while blocking
+socket connections. It does not invoke an agent, execute the parsed command, or
+validate the live API key. CI and the worker run this check before any paid call.
+
+The default model backend is LiteLLM,
 which routes provider-prefixed model names to DeepSeek and reads `DEEPSEEK_API_KEY`.
 
 In GitHub Settings → Secrets and variables → Actions:

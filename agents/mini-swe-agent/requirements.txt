@@ -1,0 +1,4 @@
+mini-swe-agent==2.4.6
+# Tool calls in this LiteLLM release import its optional MCP client modules.
+litellm[mcp]==1.106.2
+mcp==2.3.0
