@@ -31,6 +31,8 @@ jobs:
           for name, present in checks.items():
               status = 'AVAILABLE' if present else 'MISSING'
               print(f'{name}: {status}')
+              level = 'notice' if present else 'error'
+              print(f'::{level} title={name}::{status}')
               lines.append(f'| {name} | {status} |')
           lines.extend(['', 'Presence only; API authentication, model availability and execution approval are not tested.'])
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
