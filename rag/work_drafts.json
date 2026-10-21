@@ -1,0 +1,1477 @@
+{
+  "schema_version": "1.0",
+  "project": "BYAR BARBER",
+  "bundle_version": "0.0.8",
+  "status": "draft_only",
+  "source_bundle": "v0.0.4",
+  "publication_policy": "Draft only; both GitHub and GitLab provider objects require explicit Human authorization and verified provider references. Labels are not approval.",
+  "milestones": [
+    {
+      "draft_id": "M01",
+      "title": "Foundation",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M01"
+    },
+    {
+      "draft_id": "M02",
+      "title": "Authentication & Settings",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M02"
+    },
+    {
+      "draft_id": "M03",
+      "title": "Product Management",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M03"
+    },
+    {
+      "draft_id": "M04",
+      "title": "POS",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M04"
+    },
+    {
+      "draft_id": "M05",
+      "title": "Operations",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M05"
+    },
+    {
+      "draft_id": "M06",
+      "title": "Reporting & Data",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M06"
+    },
+    {
+      "draft_id": "M07",
+      "title": "Web PWA Demo",
+      "github_url": null,
+      "approval": "pending",
+      "umbrella_id": "UMB-M07"
+    }
+  ],
+  "umbrellas": [
+    {
+      "draft_id": "UMB-M01",
+      "milestone_id": "M01",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-F01",
+        "CI-F02"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M01"
+    },
+    {
+      "draft_id": "UMB-M02",
+      "milestone_id": "M02",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-01",
+        "CI-02",
+        "CI-03",
+        "CI-04",
+        "CI-05",
+        "CI-06",
+        "CI-07",
+        "CI-29",
+        "CI-30",
+        "CI-33",
+        "CI-34",
+        "CI-35",
+        "CI-36"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M02"
+    },
+    {
+      "draft_id": "UMB-M03",
+      "milestone_id": "M03",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-09",
+        "CI-10",
+        "CI-11",
+        "CI-12"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M03"
+    },
+    {
+      "draft_id": "UMB-M04",
+      "milestone_id": "M04",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-08",
+        "CI-13",
+        "CI-14",
+        "CI-15",
+        "CI-16",
+        "CI-17"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M04"
+    },
+    {
+      "draft_id": "UMB-M05",
+      "milestone_id": "M05",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-18",
+        "CI-19",
+        "CI-20",
+        "CI-21",
+        "CI-22",
+        "CI-23",
+        "CI-24"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M05"
+    },
+    {
+      "draft_id": "UMB-M06",
+      "milestone_id": "M06",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-25",
+        "CI-26",
+        "CI-27",
+        "CI-28",
+        "CI-31",
+        "CI-32"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M06"
+    },
+    {
+      "draft_id": "UMB-M07",
+      "milestone_id": "M07",
+      "github_url": null,
+      "approval": "pending",
+      "child_draft_ids": [
+        "CI-R01",
+        "CI-R02"
+      ],
+      "labels": [
+        "type::umbrella",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "UMB-M07"
+    }
+  ],
+  "child_issues": [
+    {
+      "draft_id": "CI-01",
+      "title": "Masuk dengan Serial Number dan Password",
+      "storyboard_id": "SB-01",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-01",
+        "SC-05"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Masuk dengan Serial Number dan Password",
+      "initial_state": "Layar login",
+      "user_action": "Isi kredensial dan pilih masuk",
+      "system_response": "Permintaan autentikasi; hasil validasi server tidak dirinci TSD",
+      "end_state": "Beranda bila autentikasi berhasil",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-01"
+    },
+    {
+      "draft_id": "CI-02",
+      "title": "Mempertahankan sesi",
+      "storyboard_id": "SB-02",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-01"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Mempertahankan sesi",
+      "initial_state": "Layar login",
+      "user_action": "Centang Remember",
+      "system_response": "Preferensi remember tersimpan; mekanisme sesi tidak dirinci",
+      "end_state": "Login / Beranda",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-02"
+    },
+    {
+      "draft_id": "CI-03",
+      "title": "Memulihkan akses",
+      "storyboard_id": "SB-03",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-02"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Memulihkan akses",
+      "initial_state": "Layar login",
+      "user_action": "Pilih Forget Password",
+      "system_response": "Membuka alur pemulihan; langkah lanjutan tidak dirinci",
+      "end_state": "Pemulihan",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-03"
+    },
+    {
+      "draft_id": "CI-04",
+      "title": "Memperoleh serial number",
+      "storyboard_id": "SB-04",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-03"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Memperoleh serial number",
+      "initial_state": "Layar login",
+      "user_action": "Pilih Dapatkan Serial Number Disini",
+      "system_response": "Membuka pendaftaran/pembelian; tujuan tautan tidak dirinci",
+      "end_state": "Lisensi",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-04"
+    },
+    {
+      "draft_id": "CI-05",
+      "title": "Mengakses tutorial",
+      "storyboard_id": "SB-05",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-04"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Mengakses tutorial",
+      "initial_state": "Layar login",
+      "user_action": "Tekan ikon Tutorial",
+      "system_response": "Membuka akses tutorial; konten tidak dirinci",
+      "end_state": "Tutorial",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-05"
+    },
+    {
+      "draft_id": "CI-06",
+      "title": "Memperbarui profil dan password",
+      "storyboard_id": "SB-06",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-06"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Memperbarui profil dan password",
+      "initial_state": "Sesi aktif",
+      "user_action": "Buka profil, edit nama/email/HP/foto; akses ubah password",
+      "system_response": "Perubahan profil; ubah password membutuhkan internet",
+      "end_state": "Profil",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-06"
+    },
+    {
+      "draft_id": "CI-07",
+      "title": "Keluar dari aplikasi",
+      "storyboard_id": "SB-07",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-01"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Keluar dari aplikasi",
+      "initial_state": "Sesi aktif, sidebar",
+      "user_action": "Pilih Logout",
+      "system_response": "Sesi keluar",
+      "end_state": "Login",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-07"
+    },
+    {
+      "draft_id": "CI-08",
+      "title": "Melihat omzet dan mulai transaksi",
+      "storyboard_id": "SB-08",
+      "tsd_sections": [
+        "3.8",
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-05",
+        "SC-12"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Melihat omzet dan mulai transaksi",
+      "initial_state": "Beranda",
+      "user_action": "Lihat Total Penjualan Hari Ini lalu tekan shortcut Transaksi",
+      "system_response": "Menampilkan alur kasir",
+      "end_state": "Transaksi",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-08"
+    },
+    {
+      "draft_id": "CI-09",
+      "title": "Mengelola kategori",
+      "storyboard_id": "SB-09",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-08",
+        "SC-09"
+      ],
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "goal": "Mengelola kategori",
+      "initial_state": "Kelola Produk",
+      "user_action": "Tambahkan / edit / hapus kategori",
+      "system_response": "Daftar kategori berubah",
+      "end_state": "Kategori",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-09"
+    },
+    {
+      "draft_id": "CI-10",
+      "title": "Mencari dan mengurutkan produk",
+      "storyboard_id": "SB-10",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-08"
+      ],
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "goal": "Mencari dan mengurutkan produk",
+      "initial_state": "Kelola Produk",
+      "user_action": "Masukkan kata kunci atau urutkan nama",
+      "system_response": "Daftar terfilter/terurut",
+      "end_state": "Daftar produk",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-10"
+    },
+    {
+      "draft_id": "CI-11",
+      "title": "Membuat atau mengubah produk",
+      "storyboard_id": "SB-11",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-10",
+        "SC-08"
+      ],
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "goal": "Membuat atau mengubah produk",
+      "initial_state": "Kelola Produk",
+      "user_action": "Isi foto, nama, barcode/QR, satuan, harga, kategori; simpan",
+      "system_response": "Daftar produk diperbarui",
+      "end_state": "Daftar produk",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-11"
+    },
+    {
+      "draft_id": "CI-12",
+      "title": "Memindai / membuat barcode",
+      "storyboard_id": "SB-12",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-11"
+      ],
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "goal": "Memindai / membuat barcode",
+      "initial_state": "Kelola Produk",
+      "user_action": "Aktifkan scan kamera atau generate dan cetak kode",
+      "system_response": "Kode ditemukan/dihasilkan; hardware bergantung platform",
+      "end_state": "Barcode",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-12"
+    },
+    {
+      "draft_id": "CI-13",
+      "title": "Menambahkan produk ke keranjang",
+      "storyboard_id": "SB-13",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-12",
+        "SC-13"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Menambahkan produk ke keranjang",
+      "initial_state": "Transaksi",
+      "user_action": "Pilih produk katalog atau scan beruntun",
+      "system_response": "Baris item muncul dalam keranjang",
+      "end_state": "Keranjang",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-13"
+    },
+    {
+      "draft_id": "CI-14",
+      "title": "Mengubah jumlah item",
+      "storyboard_id": "SB-14",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-13"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Mengubah jumlah item",
+      "initial_state": "Keranjang berisi produk",
+      "user_action": "Ubah kuantitas",
+      "system_response": "Jumlah dan subtotal diperbarui",
+      "end_state": "Keranjang",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-14"
+    },
+    {
+      "draft_id": "CI-15",
+      "title": "Menerapkan diskon dan memilih jenis bayar",
+      "storyboard_id": "SB-15",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-14"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Menerapkan diskon dan memilih jenis bayar",
+      "initial_state": "Keranjang",
+      "user_action": "Isi diskon rupiah dan checklist Langsung bayar",
+      "system_response": "Nilai pembayaran dan mode lunas/tertunda disiapkan",
+      "end_state": "Checkout",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-15"
+    },
+    {
+      "draft_id": "CI-16",
+      "title": "Menyelesaikan pembayaran",
+      "storyboard_id": "SB-16",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-15",
+        "SC-16"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Menyelesaikan pembayaran",
+      "initial_state": "Checkout",
+      "user_action": "Masukkan nominal uang, opsional nama pelanggan, edit tanggal, konfirmasi",
+      "system_response": "Kembalian atau sisa hutang dihitung",
+      "end_state": "Hasil transaksi",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-16"
+    },
+    {
+      "draft_id": "CI-17",
+      "title": "Mencetak atau membagikan struk",
+      "storyboard_id": "SB-17",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-17"
+      ],
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "goal": "Mencetak atau membagikan struk",
+      "initial_state": "Transaksi selesai",
+      "user_action": "Pilih cetak struk atau share gambar",
+      "system_response": "Struk disiapkan; printer/share eksternal platform-dependent",
+      "end_state": "Struk",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-17"
+    },
+    {
+      "draft_id": "CI-18",
+      "title": "Menemukan transaksi",
+      "storyboard_id": "SB-18",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-18"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Menemukan transaksi",
+      "initial_state": "Riwayat",
+      "user_action": "Pilih tab status, sortir A-Z/Z-A/terlama/terbaru, cari nama/nota",
+      "system_response": "Hasil riwayat disaring",
+      "end_state": "Riwayat",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-18"
+    },
+    {
+      "draft_id": "CI-19",
+      "title": "Melihat/mengedit pesanan dan cetak ulang",
+      "storyboard_id": "SB-19",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-20",
+        "SC-17"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Melihat/mengedit pesanan dan cetak ulang",
+      "initial_state": "Riwayat",
+      "user_action": "Buka detail lalu pilih Edit Order / cetak / share",
+      "system_response": "Detail dapat ditinjau; perubahan order sesuai tindakan",
+      "end_state": "Detail order",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-19"
+    },
+    {
+      "draft_id": "CI-20",
+      "title": "Melunasi sisa tagihan",
+      "storyboard_id": "SB-20",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-21",
+        "SC-19"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Melunasi sisa tagihan",
+      "initial_state": "Transaksi Belum Bayar",
+      "user_action": "Pilih Pelunasan, masukkan nominal pembayaran",
+      "system_response": "Sisa tagihan diperbarui; status sesuai hasil pelunasan",
+      "end_state": "Detail order",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-20"
+    },
+    {
+      "draft_id": "CI-21",
+      "title": "Membatalkan transaksi",
+      "storyboard_id": "SB-21",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-18"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Membatalkan transaksi",
+      "initial_state": "Detail transaksi",
+      "user_action": "Pilih batalkan",
+      "system_response": "Status Di Batalkan; stok dikembalikan",
+      "end_state": "Riwayat",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-21"
+    },
+    {
+      "draft_id": "CI-22",
+      "title": "Menghapus transaksi tunggal/massal",
+      "storyboard_id": "SB-22",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-18",
+        "SC-22"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Menghapus transaksi tunggal/massal",
+      "initial_state": "Riwayat",
+      "user_action": "Pilih hapus tunggal atau hapus berdasarkan rentang tanggal",
+      "system_response": "Riwayat terkait dihapus permanen",
+      "end_state": "Riwayat",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-22"
+    },
+    {
+      "draft_id": "CI-23",
+      "title": "Mencatat pengeluaran",
+      "storyboard_id": "SB-23",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "screen_ids": [
+        "SC-23",
+        "SC-24"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Mencatat pengeluaran",
+      "initial_state": "Pengeluaran",
+      "user_action": "Isi nama, catatan, nominal, tanggal",
+      "system_response": "Catatan pengeluaran ditambahkan",
+      "end_state": "Daftar pengeluaran",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-23"
+    },
+    {
+      "draft_id": "CI-24",
+      "title": "Menemukan pengeluaran",
+      "storyboard_id": "SB-24",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "screen_ids": [
+        "SC-23"
+      ],
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "goal": "Menemukan pengeluaran",
+      "initial_state": "Pengeluaran",
+      "user_action": "Cari nama atau sortir nama/tanggal",
+      "system_response": "Daftar pengeluaran diperbarui",
+      "end_state": "Daftar pengeluaran",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-24"
+    },
+    {
+      "draft_id": "CI-25",
+      "title": "Melihat laporan transaksi",
+      "storyboard_id": "SB-25",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-26"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Melihat laporan transaksi",
+      "initial_state": "Menu laporan",
+      "user_action": "Pilih rentang tanggal, sortir, buka laporan transaksi",
+      "system_response": "Total harga, total bayar, grand total dan jumlah transaksi ditampilkan",
+      "end_state": "Laporan transaksi",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-25"
+    },
+    {
+      "draft_id": "CI-26",
+      "title": "Melihat laporan produk/kategori",
+      "storyboard_id": "SB-26",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-27"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Melihat laporan produk/kategori",
+      "initial_state": "Menu laporan",
+      "user_action": "Pilih laporan produk atau kategori",
+      "system_response": "Kuantitas terjual per produk/kategori ditampilkan",
+      "end_state": "Laporan produk/kategori",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-26"
+    },
+    {
+      "draft_id": "CI-27",
+      "title": "Melihat laporan pengeluaran",
+      "storyboard_id": "SB-27",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-28"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Melihat laporan pengeluaran",
+      "initial_state": "Menu laporan",
+      "user_action": "Pilih laporan pengeluaran",
+      "system_response": "Rekap biaya ditampilkan",
+      "end_state": "Laporan pengeluaran",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-27"
+    },
+    {
+      "draft_id": "CI-28",
+      "title": "Mengekspor Excel",
+      "storyboard_id": "SB-28",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-29"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Mengekspor Excel",
+      "initial_state": "Laporan",
+      "user_action": "Pilih ekspor Excel",
+      "system_response": "File .xlsx dihasilkan/dibagikan bila browser mendukung",
+      "end_state": "Laporan",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-28"
+    },
+    {
+      "draft_id": "CI-29",
+      "title": "Memperbarui profil toko",
+      "storyboard_id": "SB-29",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "screen_ids": [
+        "SC-30"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Memperbarui profil toko",
+      "initial_state": "Pengaturan toko",
+      "user_action": "Ubah logo, nama, alamat, footer",
+      "system_response": "Pengaturan toko berubah",
+      "end_state": "Profil toko",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-29"
+    },
+    {
+      "draft_id": "CI-30",
+      "title": "Mengonfigurasi printer/struk",
+      "storyboard_id": "SB-30",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "screen_ids": [
+        "SC-31",
+        "SC-32"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Mengonfigurasi printer/struk",
+      "initial_state": "Pengaturan printer",
+      "user_action": "Pilih Bluetooth printer, Print Test, cashdrawer, AutoCut, 58/80 mm, template",
+      "system_response": "Pengaturan tersimpan; pengujian hardware tergantung platform",
+      "end_state": "Printer dan template",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-30"
+    },
+    {
+      "draft_id": "CI-31",
+      "title": "Membuat dan mengelola backup",
+      "storyboard_id": "SB-31",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Membuat dan mengelola backup",
+      "initial_state": "Backup",
+      "user_action": "Buat file .barberdb, lihat histori, bagikan/hapus",
+      "system_response": "File/histori backup terkelola",
+      "end_state": "Backup",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-31"
+    },
+    {
+      "draft_id": "CI-32",
+      "title": "Memulihkan backup",
+      "storyboard_id": "SB-32",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "goal": "Memulihkan backup",
+      "initial_state": "Backup",
+      "user_action": "Pilih file backup dan restore",
+      "system_response": "Data dipulihkan jika format valid; skema file tidak dirinci",
+      "end_state": "Backup",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-32"
+    },
+    {
+      "draft_id": "CI-33",
+      "title": "Melihat versi dan opsi update",
+      "storyboard_id": "SB-33",
+      "tsd_sections": [
+        "3.9"
+      ],
+      "screen_ids": [
+        "SC-34"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Melihat versi dan opsi update",
+      "initial_state": "Menu versi",
+      "user_action": "Buka changelog dan Update Sekarang",
+      "system_response": "Informasi versi/update APK Android ditampilkan",
+      "end_state": "Versi aplikasi",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-33"
+    },
+    {
+      "draft_id": "CI-34",
+      "title": "Membuka Usaha Saya",
+      "storyboard_id": "SB-34",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-35"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Membuka Usaha Saya",
+      "initial_state": "Sidebar",
+      "user_action": "Pilih Usaha Saya",
+      "system_response": "Menu terbuka; isi rinci tidak ditetapkan oleh TSD",
+      "end_state": "Usaha Saya",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-34"
+    },
+    {
+      "draft_id": "CI-35",
+      "title": "Akses laporan bug kontekstual",
+      "storyboard_id": "SB-35",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-36"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Akses laporan bug kontekstual",
+      "initial_state": "Pemilih gambar/galeri",
+      "user_action": "Pilih ikon Laporan Bug",
+      "system_response": "Akses laporan bug kontekstual; alur rinci tidak ditetapkan",
+      "end_state": "Laporan Bug kontekstual",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-35"
+    },
+    {
+      "draft_id": "CI-36",
+      "title": "Mengakses perizinan perangkat",
+      "storyboard_id": "SB-36",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-11",
+        "SC-10",
+        "SC-31"
+      ],
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "goal": "Mengakses perizinan perangkat",
+      "initial_state": "Scan, media, printer",
+      "user_action": "Mulai operasi yang memerlukan izin kamera/media/lokasi/perangkat sekitar",
+      "system_response": "Prompt izin sesuai kemampuan platform",
+      "end_state": "Layar pemicu",
+      "github_issue_url": null,
+      "github_pr_urls": [],
+      "approval_state": "not_approved",
+      "implementation_state": "not_started",
+      "source": "docs/UX_STORYBOARD.md",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-36"
+    },
+    {
+      "draft_id": "CI-F01",
+      "title": "Verifikasi environment Flutter/Dart & dependensi",
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "storyboard_id": null,
+      "tsd_sections": [],
+      "screen_ids": [],
+      "type": "engineering_prerequisite",
+      "github_issue_url": null,
+      "approval_state": "not_approved",
+      "labels": [
+        "type::task",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-F01"
+    },
+    {
+      "draft_id": "CI-F02",
+      "title": "Fondasi design tokens Mix dan navigasi",
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "storyboard_id": null,
+      "tsd_sections": [],
+      "screen_ids": [],
+      "type": "engineering_prerequisite",
+      "github_issue_url": null,
+      "approval_state": "not_approved",
+      "labels": [
+        "type::task",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-F02"
+    },
+    {
+      "draft_id": "CI-R01",
+      "title": "Verifikasi analyze, test, build Flutter Web",
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "storyboard_id": null,
+      "tsd_sections": [],
+      "screen_ids": [],
+      "type": "engineering_prerequisite",
+      "github_issue_url": null,
+      "approval_state": "not_approved",
+      "labels": [
+        "type::task",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-R01"
+    },
+    {
+      "draft_id": "CI-R02",
+      "title": "Konfigurasi deployment GitHub Pages dan PWA",
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "storyboard_id": null,
+      "tsd_sections": [],
+      "screen_ids": [],
+      "type": "engineering_prerequisite",
+      "github_issue_url": null,
+      "approval_state": "not_approved",
+      "labels": [
+        "type::task",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "provider_binding_id": "CI-R02"
+    }
+  ],
+  "pr_plans": [
+    {
+      "draft_id": "PR-M01-DRAFT",
+      "milestone_id": "M01",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M02-DRAFT",
+      "milestone_id": "M02",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M03-DRAFT",
+      "milestone_id": "M03",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M04-DRAFT",
+      "milestone_id": "M04",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M05-DRAFT",
+      "milestone_id": "M05",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M06-DRAFT",
+      "milestone_id": "M06",
+      "github_pr_url": null,
+      "status": "planning_only"
+    },
+    {
+      "draft_id": "PR-M07-DRAFT",
+      "milestone_id": "M07",
+      "github_pr_url": null,
+      "status": "planning_only"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "provider": "gitlab",
+  "status": "draft_not_created",
+  "labels": [
+    {
+      "name": "type::umbrella",
+      "color": "#4F46E5",
+      "description": "Milestone-scoped parent authorization boundary"
+    },
+    {
+      "name": "type::task",
+      "color": "#4F46E5",
+      "description": "Scoped child engineering task"
+    },
+    {
+      "name": "type::bug",
+      "color": "#4F46E5",
+      "description": "Defect or corrective implementation issue"
+    },
+    {
+      "name": "type::complaint",
+      "color": "#4F46E5",
+      "description": "Escalated engineering operations complaint"
+    },
+    {
+      "name": "area::foundation",
+      "color": "#0E7490",
+      "description": "Engineering work area M01"
+    },
+    {
+      "name": "area::auth-settings",
+      "color": "#0E7490",
+      "description": "Engineering work area M02"
+    },
+    {
+      "name": "area::products",
+      "color": "#0E7490",
+      "description": "Engineering work area M03"
+    },
+    {
+      "name": "area::pos",
+      "color": "#0E7490",
+      "description": "Engineering work area M04"
+    },
+    {
+      "name": "area::operations",
+      "color": "#0E7490",
+      "description": "Engineering work area M05"
+    },
+    {
+      "name": "area::reporting-data",
+      "color": "#0E7490",
+      "description": "Engineering work area M06"
+    },
+    {
+      "name": "area::web-pwa",
+      "color": "#0E7490",
+      "description": "Engineering work area M07"
+    },
+    {
+      "name": "area::engineering-ops",
+      "color": "#0E7490",
+      "description": "Governance, CI, RAG and cross-provider engineering operations"
+    },
+    {
+      "name": "priority::untriaged",
+      "color": "#94A3B8",
+      "description": "Human-assigned priority: untriaged"
+    },
+    {
+      "name": "priority::p0",
+      "color": "#DC2626",
+      "description": "Human-assigned priority: p0"
+    },
+    {
+      "name": "priority::p1",
+      "color": "#EA580C",
+      "description": "Human-assigned priority: p1"
+    },
+    {
+      "name": "priority::p2",
+      "color": "#CA8A04",
+      "description": "Human-assigned priority: p2"
+    },
+    {
+      "name": "priority::p3",
+      "color": "#16A34A",
+      "description": "Human-assigned priority: p3"
+    },
+    {
+      "name": "workflow::draft",
+      "color": "#64748B",
+      "description": "Observed workflow classification: draft"
+    },
+    {
+      "name": "workflow::ready",
+      "color": "#2563EB",
+      "description": "Observed workflow classification: ready"
+    },
+    {
+      "name": "workflow::in-progress",
+      "color": "#7C3AED",
+      "description": "Observed workflow classification: in-progress"
+    },
+    {
+      "name": "workflow::review",
+      "color": "#0369A1",
+      "description": "Observed workflow classification: review"
+    },
+    {
+      "name": "workflow::blocked",
+      "color": "#B91C1C",
+      "description": "Observed workflow classification: blocked"
+    },
+    {
+      "name": "workflow::done",
+      "color": "#15803D",
+      "description": "Observed workflow classification: done"
+    },
+    {
+      "name": "governance::approval-required",
+      "color": "#B45309",
+      "description": "Cannot execute without evidence-backed Human approval"
+    },
+    {
+      "name": "governance::scope-change",
+      "color": "#B91C1C",
+      "description": "Scope revision requires new human approval"
+    },
+    {
+      "name": "quality::needs-test",
+      "color": "#CA8A04",
+      "description": "Evidence-based testing classification: needs-test"
+    },
+    {
+      "name": "quality::verified",
+      "color": "#15803D",
+      "description": "Evidence-based testing classification: verified"
+    },
+    {
+      "name": "ops::codex",
+      "color": "#64748B",
+      "description": "Complaint category: AI execution"
+    },
+    {
+      "name": "ops::governance",
+      "color": "#64748B",
+      "description": "Complaint classification: governance"
+    },
+    {
+      "name": "ops::rag",
+      "color": "#64748B",
+      "description": "Complaint classification: rag"
+    },
+    {
+      "name": "ops::ci-cd",
+      "color": "#64748B",
+      "description": "Complaint classification: ci-cd"
+    },
+    {
+      "name": "ops::issue-management",
+      "color": "#64748B",
+      "description": "Complaint classification: issue-management"
+    },
+    {
+      "name": "ops::documentation",
+      "color": "#64748B",
+      "description": "Complaint classification: documentation"
+    },
+    {
+      "name": "ops::reporting",
+      "color": "#64748B",
+      "description": "Complaint classification: reporting"
+    },
+    {
+      "name": "ops::portability",
+      "color": "#64748B",
+      "description": "Complaint classification: portability"
+    }
+  ]
+}

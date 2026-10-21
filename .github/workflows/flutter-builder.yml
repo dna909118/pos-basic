@@ -1,0 +1,66 @@
+name: BYAR BARBER Flutter Web Builder
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'builder/flutter/**'
+      - 'tools/flutter_builder.py'
+      - 'tests/test_flutter_builder.py'
+      - 'app/**'
+      - '.github/workflows/flutter-builder.yml'
+  pull_request:
+    paths:
+      - 'builder/flutter/**'
+      - 'tools/flutter_builder.py'
+      - 'tests/test_flutter_builder.py'
+      - 'app/**'
+      - '.github/workflows/flutter-builder.yml'
+permissions:
+  contents: read
+jobs:
+  flutter-web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install pinned Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.0'
+          channel: stable
+          cache: true
+          pub-cache: true
+      - name: Verify SDK and configuration
+        run: |
+          python3 tools/flutter_builder.py config
+          python3 tools/flutter_builder.py doctor
+      - name: Flutter / Mix builder smoke build
+        run: python3 tools/flutter_builder.py smoke --artifact-dir "${{ runner.temp }}/byar-builder-smoke"
+      - name: Upload builder proof artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: byar-flutter-builder-smoke
+          path: ${{ runner.temp }}/byar-builder-smoke
+          if-no-files-found: error
+          retention-days: 7
+      - name: Detect product application
+        id: product
+        shell: bash
+        run: |
+          if [ -f app/pubspec.yaml ]; then echo "exists=true" >> "$GITHUB_OUTPUT";
+          else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Build approved application when present
+        if: steps.product.outputs.exists == 'true'
+        run: python3 tools/flutter_builder.py build --app-dir app --artifact-dir "${{ runner.temp }}/byar-product-web"
+      - name: Upload product web build
+        if: steps.product.outputs.exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: byar-barber-web
+          path: ${{ runner.temp }}/byar-product-web
+          if-no-files-found: error
+          retention-days: 7

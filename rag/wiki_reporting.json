@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.1",
+  "purpose": "evidence-based-internal-performance",
+  "last_collected_at": null,
+  "source_of_truth": [
+    "active_provider_milestones",
+    "active_provider_umbrella_issues",
+    "active_provider_child_issues",
+    "active_provider_pull_or_merge_requests",
+    "active_provider_ci_runs",
+    "human_approval_evidence",
+    "local_complaint_register"
+  ],
+  "report_status": "not_collected",
+  "metrics": {
+    "milestones_created": null,
+    "umbrellas_approved": null,
+    "children_authorized": null,
+    "children_accepted": null,
+    "prs_merged": null,
+    "ci_passed": null,
+    "open_blockers": null,
+    "complaints_registered_local": 0,
+    "complaints_open_local": 0,
+    "complaints_escalated_verified": null
+  },
+  "evidence_links": [],
+  "conventions": {
+    "null": "not_collected—not_zero",
+    "approval": "never_inferred_from_json",
+    "wiki": "report_only",
+    "publish": "human_approval_required",
+    "local_complaints_zero": "Zero only means zero local recorded entries; does not assert no operational incidents exist."
+  },
+  "active_provider": "github",
+  "complaint_register_source": "rag/complaints.json"
+}

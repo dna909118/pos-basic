@@ -1,0 +1,460 @@
+{
+  "source": "docs/UX_STORYBOARD.md",
+  "count": 36,
+  "items": [
+    {
+      "id": "SB-01",
+      "title": "Masuk dengan Serial Number dan Password",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-01",
+        "SC-05"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-02",
+      "title": "Mempertahankan sesi",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-01"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-03",
+      "title": "Memulihkan akses",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-02"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-04",
+      "title": "Memperoleh serial number",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-03"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-05",
+      "title": "Mengakses tutorial",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-04"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-06",
+      "title": "Memperbarui profil dan password",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-06"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-07",
+      "title": "Keluar dari aplikasi",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-01"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-08",
+      "title": "Melihat omzet dan mulai transaksi",
+      "tsd_sections": [
+        "3.8",
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-05",
+        "SC-12"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-09",
+      "title": "Mengelola kategori",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-08",
+        "SC-09"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-10",
+      "title": "Mencari dan mengurutkan produk",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-08"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-11",
+      "title": "Membuat atau mengubah produk",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-10",
+        "SC-08"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-12",
+      "title": "Memindai / membuat barcode",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "screen_ids": [
+        "SC-11"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-13",
+      "title": "Menambahkan produk ke keranjang",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-12",
+        "SC-13"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-14",
+      "title": "Mengubah jumlah item",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-13"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-15",
+      "title": "Menerapkan diskon dan memilih jenis bayar",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-14"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-16",
+      "title": "Menyelesaikan pembayaran",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-15",
+        "SC-16"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-17",
+      "title": "Mencetak atau membagikan struk",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "screen_ids": [
+        "SC-17"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-18",
+      "title": "Menemukan transaksi",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-18"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-19",
+      "title": "Melihat/mengedit pesanan dan cetak ulang",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-20",
+        "SC-17"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-20",
+      "title": "Melunasi sisa tagihan",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-21",
+        "SC-19"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-21",
+      "title": "Membatalkan transaksi",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-18"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-22",
+      "title": "Menghapus transaksi tunggal/massal",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "screen_ids": [
+        "SC-18",
+        "SC-22"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-23",
+      "title": "Mencatat pengeluaran",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "screen_ids": [
+        "SC-23",
+        "SC-24"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-24",
+      "title": "Menemukan pengeluaran",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "screen_ids": [
+        "SC-23"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-25",
+      "title": "Melihat laporan transaksi",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-26"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-26",
+      "title": "Melihat laporan produk/kategori",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-27"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-27",
+      "title": "Melihat laporan pengeluaran",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-28"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-28",
+      "title": "Mengekspor Excel",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-29"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-29",
+      "title": "Memperbarui profil toko",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "screen_ids": [
+        "SC-30"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-30",
+      "title": "Mengonfigurasi printer/struk",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "screen_ids": [
+        "SC-31",
+        "SC-32"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-31",
+      "title": "Membuat dan mengelola backup",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-32",
+      "title": "Memulihkan backup",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-33",
+      "title": "Melihat versi dan opsi update",
+      "tsd_sections": [
+        "3.9"
+      ],
+      "screen_ids": [
+        "SC-34"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-34",
+      "title": "Membuka Usaha Saya",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-35"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-35",
+      "title": "Akses laporan bug kontekstual",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "screen_ids": [
+        "SC-36"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    },
+    {
+      "id": "SB-36",
+      "title": "Mengakses perizinan perangkat",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "screen_ids": [
+        "SC-11",
+        "SC-10",
+        "SC-31"
+      ],
+      "source": "docs/UX_STORYBOARD.md",
+      "status": "documented"
+    }
+  ]
+}

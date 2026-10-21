@@ -1,0 +1,11 @@
+# Derived ephemeral operational state
+rag/runtime/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+.agent-work/
+agent-outputs/
+*.traj.json

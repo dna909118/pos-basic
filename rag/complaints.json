@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "project": "BYAR BARBER",
+  "bundle_version": "0.0.7",
+  "source_register": "COMPLAIN.md",
+  "register_state": "no_entries_recorded",
+  "entries": [],
+  "counts": {
+    "recorded": 0,
+    "open": 0,
+    "resolved": 0
+  },
+  "counts_qualification": "Counts reflect only entries recorded in the local COMPLAIN register; not verified external provider incident counts.",
+  "escalation_policy": "Human triage and separate authorized Child Issue / bounded instruction required; complaint is not approval.",
+  "provider_references_policy": "Only verified native GitHub/GitLab URLs, otherwise null."
+}

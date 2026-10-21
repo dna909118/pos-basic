@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "builder": "flutter-web",
+  "flutter_version": "3.44.0",
+  "flutter_channel": "stable",
+  "dart_version_prefix": "3.12.0",
+  "mix_version": "2.2.2",
+  "target_platform": "web",
+  "application_directory": "app",
+  "smoke_project_name": "byar_builder_smoke",
+  "web_base_href": "/",
+  "source_version_note": "Pinned for reproducible clean bootstrap; adjust only by reviewed toolchain PR."
+}

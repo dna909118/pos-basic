@@ -1,0 +1,47 @@
+{
+  "project": "BYAR BARBER",
+  "version": "0.0.8",
+  "type": "deterministic-json-retrieval-index",
+  "semantic_embeddings": false,
+  "sources": [
+    "docs/Byar_Barber_Basic_TSD-v4.md",
+    "docs/UX_STORYBOARD.md",
+    "docs/LOFI_SCREEN_SPEC.md",
+    "docs/Design_System_Mix_UI.md"
+  ],
+  "human_only": [
+    "design/BYAR_BARBER_HIFI_TOP_HIERARCHY.png"
+  ],
+  "indexes": [
+    "requirements.json",
+    "storyboard_index.json",
+    "screen_index.json",
+    "design_tokens.json",
+    "traceability.json",
+    "decisions.json",
+    "governance_links.json",
+    "wiki_reporting.json",
+    "label_assignments.json",
+    "provider_bindings.json",
+    "complaints.json"
+  ],
+  "authority": [
+    "TSD: functionality",
+    "Storyboard: interactions derived from TSD",
+    "Lo-Fi: screen hierarchy derived from storyboard",
+    "Design System: styling and Mix UI"
+  ],
+  "note": "JSON indexes are derived navigation records, not additional approved business requirements.",
+  "governance": "Umbrella/Child evidence approvals gate execution; labels are classification only; providers GitHub and GitLab are interchangeable via canonical IDs; Wiki reports evidence only.",
+  "operational_complaint_register": "COMPLAIN.md",
+  "label_registry": "management/labels/label_catalog.json",
+  "portability_contract": "management/PORTABILITY_CONTRACT.md",
+  "operational_fts5_index": {
+    "engine": "SQLite FTS5 (unicode61 / bm25)",
+    "storage": "ephemeral / gitignored",
+    "config": "rag/fts5/config.json",
+    "entrypoint": "rag/fts5/operational_index.py",
+    "rebuild": "exact SHA-256 source and configuration fingerprints",
+    "authorization": "none; retrieval only"
+  }
+}
