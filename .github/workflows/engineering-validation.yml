@@ -28,3 +28,6 @@ jobs:
           python rag/fts5/operational_index.py status
           python rag/fts5/operational_index.py lookup REF-SB-16
           python rag/fts5/operational_index.py query "pembayaran DP pelunasan" --top-k 3
+
+      - name: Verify Flutter builder source contract (offline)
+        run: python tools/flutter_builder.py config

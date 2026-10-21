@@ -35,3 +35,6 @@ Current known limits: there is no provider API synchronization/enforcement, no l
 4. Publication of 35 labels, M01-M07, Umbrella and Child draft Issues requires separate Human authorization and provider binding synchronization. No work runs until authorized scope comments and exact draft hashes pass live preflight.
 5. `.github/workflows/engineering-validation.yml` runs offline checks; `.github/workflows/agent-dispatch.yml` is a manual, fail-closed, artifact-only worker pilot. See `orchestration/README.md`. No auto-publish or auto-merge.
 6. OpenCode V2 and mini-SWE-agent V2 are alternative workers. Hermes is excluded. MCP schema is an optional integration contract, not a running server. Flutter business app is not included.
+
+## Flutter builder (v0.0.8-r1)
+The Flutter **web builder toolchain and GitHub Actions build workflow are preconfigured** under `builder/flutter/`, `tools/flutter_builder.py`, and `.github/workflows/flutter-builder.yml`. A disposable smoke Flutter project verifies toolchain + Mix + web compilation; when an approved application exists under `app/`, the same CI path compiles and publishes its web-build artifact. No product UI/application code is bundled. Actual Flutter build and CI must still be verified on a live runner. See `builder/flutter/README.md`.

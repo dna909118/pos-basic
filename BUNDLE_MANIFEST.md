@@ -9,3 +9,6 @@
 - MCP documented as an integration contract only; Hermes excluded. Obsidian/Jelastic/Windmill are not mandatory.
 - No Flutter implementation and no user repository mutation performed. CI execution against GitHub and live model-agent integration require external credentials and must be reported separately.
 - Run tests and review `RELEASE_VALIDATION.md` before adopting. SHA256 manifest is `RELEASE_SHA256.txt`.
+
+## v0.0.8-r1 — Flutter builder configuration completion
+This non-destructive release revision adds the Flutter 3.44.0/Dart 3.12.0 stable web-builder contract, pinned Mix 2.2.2, `tools/flutter_builder.py`, dry-run/offline tests and GitHub Actions `flutter-builder.yml`. It supports ephemeral smoke compilation independent of business application source and building a future approved `app/` with committed lockfile. No Flutter feature implementation is included. The historical v0.0.8 ZIP remains intact.

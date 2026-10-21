@@ -36,3 +36,22 @@ The current source index contained **101 indexed files / 405 chunks** on an earl
 ## Remaining operator-controlled initialization
 
 See `orchestration/README.md` for approved issue publication, scope approval comment syntax, allowlisted Human identities, model secrets, GH Actions dispatch and evidence-based review. Every live operation requires separate Human authorization. This bundle remains a **release candidate pending external smoke tests and Human acceptance**, not an operationally active agent platform.
+
+## v0.0.8-r1 — Flutter builder validation boundary
+The builder contract, CLI and workflow have been added for GitHub Actions; offline unit tests and config checks verify structure and expected failure modes. This environment does **not** have Flutter/Dart installed, so actual Flutter/Mix resolution, analyzer, tests, web build, and Actions artifact upload remain **NOT VERIFIED** until the CI workflow is run. Source integrity and other v0.0.8 checks must be rerun against this revision.
+
+### v0.0.8-r1 actual local verification
+- `python tools/flutter_builder.py config`: PASS (offline builder configuration).
+- `python -m unittest discover -s tests -v`: PASS — **40 tests** (29 prior + 11 builder tests).
+- `python tools/validate_governance.py`: PASS (draft structure, no live publication claims).
+- Flutter 3.44.0 / Dart 3.12.0 / Mix 2.2.2 are pins **configured** in bundle, not installed or compiled locally.
+- `subosito/flutter-action@v2` and artifact upload must be tested after import in GitHub Actions; no live Flutter CI was executed here.
+- Protected five source files, including Human-only Hi-Fi, remained byte-identical to the original v0.0.8 baseline.
+
+### v0.0.8-r1 actual local verification
+- `python tools/flutter_builder.py config`: PASS (offline builder configuration).
+- `python -m unittest discover -s tests -v`: PASS — **39 tests** (29 prior + 10 builder tests).
+- `python tools/validate_governance.py`: PASS (draft structure, no live publication claims).
+- Flutter 3.44.0 / Dart 3.12.0 / Mix 2.2.2 are pins **configured** in bundle, not installed or compiled locally.
+- `subosito/flutter-action@v2` and artifact upload must be tested after import in GitHub Actions; no live Flutter CI was executed here.
+- Protected five source files, including Human-only Hi-Fi, remained byte-identical to the original v0.0.8 baseline.

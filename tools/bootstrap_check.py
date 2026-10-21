@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 checks=[
  ['tools/validate_governance.py'],
+ ['tools/flutter_builder.py','config'],
  ['-m','unittest','discover','-s','tests','-v'],
  ['rag/fts5/operational_index.py','build'],
  ['rag/fts5/operational_index.py','status'],

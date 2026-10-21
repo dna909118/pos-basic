@@ -29,3 +29,6 @@ This is a **fail-closed, artifact-only pilot**. No automatic issue creation, sch
 - GitHub hosted runner minutes, model inference charges, and Actions concurrency limits apply.
 - `AGENT_FINISHED` and CI green do not prove Human acceptance. The worker intentionally does not publish PR.
 - `BYAR_HUMAN_APPROVERS` is an operator-configured allowlist, not a substitute for provider authentication; the actual live GitHub comment author is verified by API.
+
+## Flutter builder on agent runners (v0.0.8-r1)
+The manual dispatch worker now installs the same pinned Flutter 3.44.0 SDK with cache and runs `python tools/flutter_builder.py doctor` **after preflight succeeds and before the coding engine starts**. This permits authorized Flutter Child Issues to run toolchain/analyzer/build commands without manual SDK setup. Mix 2.2.2 is resolved by Flutter from each authorized application's locked `pubspec`. The dedicated `.github/workflows/flutter-builder.yml` separately performs an isolated build proof and, when present, a real application build. Both require first-run downloads and have not been live-tested in this bundle environment.
