@@ -1,0 +1,48 @@
+{
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "decision": "Product name BYAR BARBER",
+      "authority": "user",
+      "status": "confirmed"
+    },
+    {
+      "id": "DEC-002",
+      "decision": "Backup extension .barberdb",
+      "authority": "user",
+      "status": "confirmed",
+      "note": "File format not established"
+    },
+    {
+      "id": "DEC-003",
+      "decision": "Hi-Fi image is for human visual review only; exclude from Codex implementation context",
+      "authority": "user",
+      "status": "confirmed"
+    },
+    {
+      "id": "DEC-004",
+      "decision": "All Codex implementation requires a human-approved scoped Child Issue under an approved Umbrella in the active provider (GitHub or GitLab), or explicit equivalent bounded Human instruction; no autonomous merge.",
+      "authority": "user-approved management proposal",
+      "status": "confirmed",
+      "note": "v0.0.7 restates historical GitHub-only wording in provider-neutral form."
+    },
+    {
+      "id": "DEC-005",
+      "decision": "Labels are a first-class classification for engineering work; labels must not substitute Human approval.",
+      "authority": "user",
+      "status": "confirmed"
+    },
+    {
+      "id": "DEC-006",
+      "decision": "Engineering management remains portable between GitHub and GitLab, using persistent canonical local work IDs with verified provider bindings.",
+      "authority": "user",
+      "status": "confirmed"
+    },
+    {
+      "id": "DEC-007",
+      "decision": "COMPLAIN.md is the internal engineering operations complaint register; complaints are not execution authorization and require Human triage before escalation.",
+      "authority": "user",
+      "status": "confirmed"
+    }
+  ]
+}

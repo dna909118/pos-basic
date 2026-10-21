@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BYAR BARBER agent evidence artifact",
+  "type": "object",
+  "required": ["schema_version","canonical_child_id","engine","base_sha","status","returncode","tests","pr_url","merge"],
+  "properties": {
+    "schema_version": {"const":"1.0"},
+    "canonical_child_id": {"type":"string"},
+    "engine": {"enum":["opencode","mini-swe"]},
+    "base_sha": {"type":"string"},
+    "status": {"enum":["NOT_RUN","AGENT_FINISHED","AGENT_FAILED"]},
+    "returncode": {"type":["integer","null"]},
+    "tests": {"type":"string"},
+    "pr_url": {"type":["string","null"]},
+    "merge": {"const":"not_authorized"},
+    "execution_note": {"type":"string"}
+  }
+}

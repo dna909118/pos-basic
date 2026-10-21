@@ -1,0 +1,72 @@
+name: Engineering Task
+description: Authorized TSD-scoped implementation unit for Codex
+title: "[ENG] "
+labels: ["type::task", "workflow::draft", "governance::approval-required"]
+body:
+  - type: input
+    id: canonical_work_id
+    attributes:
+      label: Canonical work ID (provider-neutral)
+      placeholder: "CI-16 or UMB-M04"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_labels
+    attributes:
+      label: Proposed labels from registry
+      description: "Use rag/label_assignments.json; labels classify work but do not prove approval."
+  - type: markdown
+    attributes:
+      value: "Human approval is mandatory before Codex executes this issue. Do not treat template submission as approval."
+  - type: input
+    id: umbrella
+    attributes:
+      label: Approved umbrella issue URL and approved scope revision
+      description: Child execution is blocked until human approval of both umbrella and this child is verified.
+    validations:
+      required: true
+  - type: input
+    id: tsd
+    attributes:
+      label: TSD section(s) (or N/A for prerequisite)
+      placeholder: "3.5"
+    validations:
+      required: true
+  - type: input
+    id: storyboard
+    attributes:
+      label: Storyboard IDs (or N/A for engineering prerequisite)
+      placeholder: "SB-13"
+    validations:
+      required: true
+  - type: input
+    id: screens
+    attributes:
+      label: Lo-Fi screen IDs (or N/A for engineering prerequisite)
+      placeholder: "SC-12, SC-13"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Exact authorized scope
+      description: Include permitted files and the requested change only.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Explicit exclusions / protected files
+  - type: dropdown
+    id: approval
+    attributes:
+      label: Human approval state
+      options: ["Not approved", "Approved by repository owner (confirm via comment)"]
+    validations:
+      required: true

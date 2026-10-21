@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "engine": "sqlite-fts5",
+  "index_kind": "derived_operational_state",
+  "local_path": "rag/runtime/knowledge.sqlite3",
+  "chunk_chars": 1100,
+  "chunk_overlap": 140,
+  "index_sources": [
+    "docs/Byar_Barber_Basic_TSD-v4.md",
+    "docs/UX_STORYBOARD.md",
+    "docs/LOFI_SCREEN_SPEC.md",
+    "docs/Design_System_Mix_UI.md",
+    "management",
+    "wiki",
+    "rag/requirements.json",
+    "rag/storyboard_index.json",
+    "rag/screen_index.json",
+    "rag/traceability.json",
+    "rag/work_drafts.json",
+    "rag/governance_links.json",
+    "COMPLAIN.md",
+    "rag/complaints.json",
+    "rag/label_assignments.json",
+    "rag/provider_bindings.json",
+    "management/labels/label_catalog.json",
+    "rag/decisions.json"
+  ],
+  "exclude_paths": [
+    "design/",
+    "rag/runtime/",
+    "rag/chroma/",
+    "rag/fts5/",
+    "agents/",
+    "orchestration/",
+    "tests/",
+    "tools/",
+    "wiki/README.md",
+    ".git/"
+  ],
+  "human_only": [
+    "design/BYAR_BARBER_HIFI_TOP_HIERARCHY.png"
+  ],
+  "authorization_source": "Human-approved scoped Umbrella and Child Issue on active GitHub OR GitLab; labels/complaints/retrieval are not approval"
+}

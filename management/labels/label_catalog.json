@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "project": "BYAR BARBER",
+  "bundle_version": "0.0.7",
+  "status": "draft_unpublished",
+  "provider_neutral": true,
+  "labels": [
+    {
+      "name": "type::umbrella",
+      "description": "Milestone-scoped parent authorization boundary",
+      "color": "4F46E5",
+      "scope": "type",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "type::task",
+      "description": "Scoped child engineering task",
+      "color": "4F46E5",
+      "scope": "type",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "type::bug",
+      "description": "Defect or corrective implementation issue",
+      "color": "4F46E5",
+      "scope": "type",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "type::complaint",
+      "description": "Escalated engineering operations complaint",
+      "color": "4F46E5",
+      "scope": "type",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::foundation",
+      "description": "Engineering work area M01",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::auth-settings",
+      "description": "Engineering work area M02",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::products",
+      "description": "Engineering work area M03",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::pos",
+      "description": "Engineering work area M04",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::operations",
+      "description": "Engineering work area M05",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::reporting-data",
+      "description": "Engineering work area M06",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::web-pwa",
+      "description": "Engineering work area M07",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "area::engineering-ops",
+      "description": "Governance, CI, RAG and cross-provider engineering operations",
+      "color": "0E7490",
+      "scope": "area",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "priority::untriaged",
+      "description": "Human-assigned priority: untriaged",
+      "color": "94A3B8",
+      "scope": "priority",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "priority::p0",
+      "description": "Human-assigned priority: p0",
+      "color": "DC2626",
+      "scope": "priority",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "priority::p1",
+      "description": "Human-assigned priority: p1",
+      "color": "EA580C",
+      "scope": "priority",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "priority::p2",
+      "description": "Human-assigned priority: p2",
+      "color": "CA8A04",
+      "scope": "priority",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "priority::p3",
+      "description": "Human-assigned priority: p3",
+      "color": "16A34A",
+      "scope": "priority",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::draft",
+      "description": "Observed workflow classification: draft",
+      "color": "64748B",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::ready",
+      "description": "Observed workflow classification: ready",
+      "color": "2563EB",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::in-progress",
+      "description": "Observed workflow classification: in-progress",
+      "color": "7C3AED",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::review",
+      "description": "Observed workflow classification: review",
+      "color": "0369A1",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::blocked",
+      "description": "Observed workflow classification: blocked",
+      "color": "B91C1C",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "workflow::done",
+      "description": "Observed workflow classification: done",
+      "color": "15803D",
+      "scope": "workflow",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "governance::approval-required",
+      "description": "Cannot execute without evidence-backed Human approval",
+      "color": "B45309",
+      "scope": "governance",
+      "mutually_exclusive_scope": false
+    },
+    {
+      "name": "governance::scope-change",
+      "description": "Scope revision requires new human approval",
+      "color": "B91C1C",
+      "scope": "governance",
+      "mutually_exclusive_scope": false
+    },
+    {
+      "name": "quality::needs-test",
+      "description": "Evidence-based testing classification: needs-test",
+      "color": "CA8A04",
+      "scope": "quality",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "quality::verified",
+      "description": "Evidence-based testing classification: verified",
+      "color": "15803D",
+      "scope": "quality",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::codex",
+      "description": "Complaint category: AI execution",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::governance",
+      "description": "Complaint classification: governance",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::rag",
+      "description": "Complaint classification: rag",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::ci-cd",
+      "description": "Complaint classification: ci-cd",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::issue-management",
+      "description": "Complaint classification: issue-management",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::documentation",
+      "description": "Complaint classification: documentation",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::reporting",
+      "description": "Complaint classification: reporting",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    },
+    {
+      "name": "ops::portability",
+      "description": "Complaint classification: portability",
+      "color": "64748B",
+      "scope": "ops",
+      "mutually_exclusive_scope": true
+    }
+  ],
+  "policy": {
+    "scope_separator": "::",
+    "exclusive_scopes": [
+      "type",
+      "area",
+      "priority",
+      "workflow",
+      "quality",
+      "ops"
+    ],
+    "nonexclusive_scopes": [
+      "governance"
+    ],
+    "approval_policy": "Labels, including workflow::ready/quality::verified, do not authorize execution; explicit Human approval evidence and approved scope revision required.",
+    "provider_scope_note": "Validate mutual exclusion in repository tooling; do not rely on plan-specific GitLab scoped-label enforcement.",
+    "untriaged_priority": "Do not assign p0–p3 until Human triage."
+  }
+}

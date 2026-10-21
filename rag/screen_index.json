@@ -1,0 +1,314 @@
+{
+  "source": "docs/LOFI_SCREEN_SPEC.md",
+  "count": 36,
+  "items": [
+    {
+      "id": "SC-01",
+      "title": "Login",
+      "storyboard_ids": [
+        "SB-01",
+        "SB-02"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-02",
+      "title": "Forget Password",
+      "storyboard_ids": [
+        "SB-03"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-03",
+      "title": "Dapatkan Serial Number",
+      "storyboard_ids": [
+        "SB-04"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-04",
+      "title": "Tutorial",
+      "storyboard_ids": [
+        "SB-05"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-05",
+      "title": "Beranda/Dashboard",
+      "storyboard_ids": [
+        "SB-01",
+        "SB-08"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-06",
+      "title": "Profil pengguna",
+      "storyboard_ids": [
+        "SB-06"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-07",
+      "title": "Sidebar navigasi",
+      "storyboard_ids": [
+        "SB-07",
+        "SB-34"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-08",
+      "title": "Daftar produk",
+      "storyboard_ids": [
+        "SB-09",
+        "SB-10",
+        "SB-11"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-09",
+      "title": "Kategori produk",
+      "storyboard_ids": [
+        "SB-09"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-10",
+      "title": "Form produk",
+      "storyboard_ids": [
+        "SB-11",
+        "SB-36"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-11",
+      "title": "Barcode / pemindaian",
+      "storyboard_ids": [
+        "SB-12",
+        "SB-36"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-12",
+      "title": "Transaksi / katalog kasir",
+      "storyboard_ids": [
+        "SB-08",
+        "SB-13"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-13",
+      "title": "Keranjang transaksi",
+      "storyboard_ids": [
+        "SB-13",
+        "SB-14"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-14",
+      "title": "Checkout dan diskon",
+      "storyboard_ids": [
+        "SB-15"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-15",
+      "title": "Pembayaran",
+      "storyboard_ids": [
+        "SB-16"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-16",
+      "title": "Hasil transaksi",
+      "storyboard_ids": [
+        "SB-16"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-17",
+      "title": "Struk",
+      "storyboard_ids": [
+        "SB-17",
+        "SB-19"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-18",
+      "title": "Riwayat transaksi",
+      "storyboard_ids": [
+        "SB-18",
+        "SB-21",
+        "SB-22"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-19",
+      "title": "Detail transaksi",
+      "storyboard_ids": [
+        "SB-19",
+        "SB-20",
+        "SB-21"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-20",
+      "title": "Edit Order",
+      "storyboard_ids": [
+        "SB-19"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-21",
+      "title": "Pelunasan",
+      "storyboard_ids": [
+        "SB-20"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-22",
+      "title": "Hapus transaksi berdasar tanggal",
+      "storyboard_ids": [
+        "SB-22"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-23",
+      "title": "Daftar pengeluaran",
+      "storyboard_ids": [
+        "SB-23",
+        "SB-24"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-24",
+      "title": "Input pengeluaran",
+      "storyboard_ids": [
+        "SB-23"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-25",
+      "title": "Menu laporan/filter",
+      "storyboard_ids": [
+        "SB-25",
+        "SB-26",
+        "SB-27",
+        "SB-28"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-26",
+      "title": "Laporan transaksi",
+      "storyboard_ids": [
+        "SB-25"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-27",
+      "title": "Laporan produk dan kategori",
+      "storyboard_ids": [
+        "SB-26"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-28",
+      "title": "Laporan pengeluaran",
+      "storyboard_ids": [
+        "SB-27"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-29",
+      "title": "Ekspor Excel",
+      "storyboard_ids": [
+        "SB-28"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-30",
+      "title": "Profil toko",
+      "storyboard_ids": [
+        "SB-29"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-31",
+      "title": "Printer dan periferal",
+      "storyboard_ids": [
+        "SB-30",
+        "SB-36"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-32",
+      "title": "Template struk",
+      "storyboard_ids": [
+        "SB-30"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-33",
+      "title": "Backup & Restore",
+      "storyboard_ids": [
+        "SB-31",
+        "SB-32"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-34",
+      "title": "Versi dan update",
+      "storyboard_ids": [
+        "SB-33"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-35",
+      "title": "Usaha Saya",
+      "storyboard_ids": [
+        "SB-34"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    },
+    {
+      "id": "SC-36",
+      "title": "Laporan Bug kontekstual",
+      "storyboard_ids": [
+        "SB-35"
+      ],
+      "source": "docs/LOFI_SCREEN_SPEC.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "docs/Design_System_Mix_UI.md",
+  "extraction": "source-grounded key tokens only; primary document controls",
+  "colors": {
+    "primary": "#000000",
+    "background": "#F8F9FA",
+    "surface": "#FFFFFF",
+    "border": "#E2E8F0",
+    "primary_text": "#0F172A",
+    "secondary_text": "#64748B"
+  },
+  "typography": {
+    "font_options": [
+      "Plus Jakarta Sans",
+      "Inter"
+    ],
+    "heading1_px": 32,
+    "heading2_px": "18–20",
+    "body_px": 14,
+    "label_px": 12
+  },
+  "principles": [
+    "zero elevation",
+    "thin borders",
+    "minimalist surfaces"
+  ],
+  "framework": "Mix UI 2.x; verify package API in Codex Cloud"
+}

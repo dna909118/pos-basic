@@ -1,0 +1,30 @@
+name: BYAR BARBER Engineering Validation
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate governance
+        run: python tools/validate_governance.py
+      - name: Offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Build retrieval state
+        run: python rag/fts5/operational_index.py build
+      - name: Check readiness and exact IDs
+        run: |
+          python rag/fts5/operational_index.py status
+          python rag/fts5/operational_index.py lookup REF-SB-16
+          python rag/fts5/operational_index.py query "pembayaran DP pelunasan" --top-k 3

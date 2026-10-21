@@ -1,0 +1,68 @@
+name: Umbrella Issue (scope authorization)
+description: Human-controlled authorization boundary under a milestone
+title: "[UMBRELLA] "
+labels: ["type::umbrella", "workflow::draft", "governance::approval-required"]
+body:
+  - type: input
+    id: canonical_work_id
+    attributes:
+      label: Canonical work ID (provider-neutral)
+      placeholder: "CI-16 or UMB-M04"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_labels
+    attributes:
+      label: Proposed labels from registry
+      description: "Use rag/label_assignments.json; labels classify work but do not prove approval."
+  - type: markdown
+    attributes:
+      value: "This issue does not authorize child execution by itself. Human approval must be evidenced by an explicit reviewable comment identifying the approved scope revision."
+  - type: input
+    id: milestone
+    attributes:
+      label: Milestone ID and active-provider URL
+      placeholder: "M04 — URL if created"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source references (TSD / SB / SC / technical prerequisites)
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Exact umbrella scope and permitted work
+    validations:
+      required: true
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Out-of-scope, protected files and constraints
+    validations:
+      required: true
+  - type: textarea
+    id: children
+    attributes:
+      label: Child issue register (IDs / links; initially empty)
+      description: "Adding child links does not grant execution approval."
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance and closure criteria
+    validations:
+      required: true
+  - type: input
+    id: scope_revision
+    attributes:
+      label: Scope revision ID
+      placeholder: "r1"
+    validations:
+      required: true
+  - type: textarea
+    id: human_approval
+    attributes:
+      label: Owner approval link (fill after approval)
+      description: "No link means pending approval."

@@ -1,0 +1,106 @@
+name: BYAR BARBER Manual Agent Pilot
+# Explicit Human dispatch request only; approval is independently checked online.
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Existing approved GitHub Child Issue number'
+        type: number
+        required: true
+      engine:
+        description: 'Agent execution engine'
+        type: choice
+        options: [opencode, mini-swe]
+        required: true
+permissions:
+  contents: read
+  issues: read
+concurrency:
+  group: byar-issue-${{ inputs.issue_number }}
+  cancel-in-progress: false
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      child: ${{ steps.valid.outputs.child }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline structural validator
+        run: python tools/validate_governance.py
+      - name: Verify live independent approvals
+        id: valid
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BYAR_HUMAN_APPROVERS: ${{ vars.BYAR_HUMAN_APPROVERS }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
+          ENGINE: ${{ inputs.engine }}
+        run: |
+          python orchestration/governance_gate/preflight.py --issue-number "$ISSUE_NUMBER" --engine "$ENGINE" --out /tmp/dispatch.json
+          cp /tmp/dispatch.json dispatch.json
+          echo "child=$(python -c 'import json; print(json.load(open("dispatch.json"))["canonical_child_id"])')" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: byar-dispatch-manifest
+          path: dispatch.json
+          retention-days: 7
+          if-no-files-found: error
+  worker:
+    needs: preflight
+    runs-on: ubuntu-latest
+    # Explicitly do not grant repo write access or a merge token to agent.
+    permissions:
+      contents: read
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            /*
+            !/design/
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: byar-dispatch-manifest
+          path: dispatch-input
+      - name: Verify checked-out revision matches dispatch snapshot
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          m=json.load(open('dispatch-input/dispatch.json'))
+          current=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          assert m['base_sha']==current, 'Baseline changed after preflight'
+          PY
+      - name: Rebuild retrieval index (offline)
+        run: python rag/fts5/operational_index.py build
+      - name: Install OpenCode CLI
+        if: ${{ inputs.engine == 'opencode' }}
+        run: npm install --global @opencode/cli
+      - name: Install mini-SWE-agent
+        if: ${{ inputs.engine == 'mini-swe' }}
+        run: python -m pip install 'mini-swe-agent>=2,<3'
+      - name: Execute authorized worker (artifact-only)
+        env:
+          BYAR_AGENT_MODEL: ${{ vars.BYAR_AGENT_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.BYAR_MODEL_API_KEY }}
+        run: |
+          python orchestration/dispatcher/run_agent.py \
+            --manifest dispatch-input/dispatch.json --out agent-outputs \
+            --model "$BYAR_AGENT_MODEL"
+      - name: Upload review evidence, never publish code automatically
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: byar-agent-review-${{ inputs.issue_number }}
+          path: agent-outputs/
+          retention-days: 7
+          if-no-files-found: warn

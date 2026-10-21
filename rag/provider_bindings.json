@@ -1,0 +1,1501 @@
+{
+  "schema_version": "1.1",
+  "project": "BYAR BARBER",
+  "status": "draft_only",
+  "canonical_id_policy": "Local Mxx / UMB-Mxx / CI-xx / PR-Mxx-DRAFT identifiers are stable; GitHub/GitLab numbers are platform bindings only.",
+  "active_provider": "github",
+  "bindings": [
+    {
+      "local_id": "M01",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M02",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M03",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M04",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M05",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M06",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "M07",
+      "kind": "milestone",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      }
+    },
+    {
+      "local_id": "UMB-M01",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M01",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M02",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M03",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M04",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M05",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M06",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "UMB-M07",
+      "kind": "umbrella",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M07",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-01",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-02",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-03",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-04",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-05",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-06",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-07",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-08",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-09",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-10",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-11",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-12",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-13",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-14",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-15",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-16",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-17",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-18",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-19",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-20",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-21",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-22",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-23",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-24",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-25",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-26",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-27",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-28",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-29",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-30",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-31",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-32",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-33",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-34",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-35",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-36",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-F01",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-F02",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-R01",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "CI-R02",
+      "kind": "child",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "execution_approval": {
+        "state": "pending_approval",
+        "scope_revision": "draft-1",
+        "approved_scope_revision": null,
+        "approved_scope_sha256": null,
+        "evidence_url": null,
+        "approved_by": null,
+        "verified_at": null,
+        "provider": null
+      }
+    },
+    {
+      "local_id": "PR-M01-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M01",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M02-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M02",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M03-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M03",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M04-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M04",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M05-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M05",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M06-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M06",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    },
+    {
+      "local_id": "PR-M07-DRAFT",
+      "kind": "change_plan",
+      "status": "not_created",
+      "github": {
+        "url": null,
+        "number": null,
+        "verified_at": null
+      },
+      "gitlab": {
+        "url": null,
+        "iid": null,
+        "verified_at": null
+      },
+      "milestone_id": "M07",
+      "note": "Draft PR/MR plan, not one actual PR/MR."
+    }
+  ],
+  "note": "Do not populate provider URLs or identifiers without verified actual remote objects. Do not treat this file as authorization.",
+  "portability_target": "gitlab",
+  "provider_repositories": {
+    "github": null,
+    "gitlab": null
+  }
+}

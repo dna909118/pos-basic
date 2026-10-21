@@ -1,0 +1,532 @@
+{
+  "kind": "storyboard-backed-requirement-map",
+  "note": "Not a granular TSD requirements registry. Each entry references an existing documented storyboard. Do not infer additional requirements.",
+  "items": [
+    {
+      "requirement_ref": "REF-SB-01",
+      "title": "Masuk dengan Serial Number dan Password",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-01"
+      ],
+      "screen_ids": [
+        "SC-01",
+        "SC-05"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-02",
+      "title": "Mempertahankan sesi",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-02"
+      ],
+      "screen_ids": [
+        "SC-01"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-03",
+      "title": "Memulihkan akses",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-03"
+      ],
+      "screen_ids": [
+        "SC-02"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-04",
+      "title": "Memperoleh serial number",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-04"
+      ],
+      "screen_ids": [
+        "SC-03"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-05",
+      "title": "Mengakses tutorial",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-05"
+      ],
+      "screen_ids": [
+        "SC-04"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-06",
+      "title": "Memperbarui profil dan password",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-06"
+      ],
+      "screen_ids": [
+        "SC-06"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-07",
+      "title": "Keluar dari aplikasi",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "storyboard_ids": [
+        "SB-07"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-01"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-08",
+      "title": "Melihat omzet dan mulai transaksi",
+      "tsd_sections": [
+        "3.8",
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-08"
+      ],
+      "screen_ids": [
+        "SC-05",
+        "SC-12"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-09",
+      "title": "Mengelola kategori",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "storyboard_ids": [
+        "SB-09"
+      ],
+      "screen_ids": [
+        "SC-08",
+        "SC-09"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-10",
+      "title": "Mencari dan mengurutkan produk",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "storyboard_ids": [
+        "SB-10"
+      ],
+      "screen_ids": [
+        "SC-08"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-11",
+      "title": "Membuat atau mengubah produk",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "storyboard_ids": [
+        "SB-11"
+      ],
+      "screen_ids": [
+        "SC-10",
+        "SC-08"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-12",
+      "title": "Memindai / membuat barcode",
+      "tsd_sections": [
+        "3.4"
+      ],
+      "storyboard_ids": [
+        "SB-12"
+      ],
+      "screen_ids": [
+        "SC-11"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-13",
+      "title": "Menambahkan produk ke keranjang",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-13"
+      ],
+      "screen_ids": [
+        "SC-12",
+        "SC-13"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-14",
+      "title": "Mengubah jumlah item",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-14"
+      ],
+      "screen_ids": [
+        "SC-13"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-15",
+      "title": "Menerapkan diskon dan memilih jenis bayar",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-15"
+      ],
+      "screen_ids": [
+        "SC-14"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-16",
+      "title": "Menyelesaikan pembayaran",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-16"
+      ],
+      "screen_ids": [
+        "SC-15",
+        "SC-16"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-17",
+      "title": "Mencetak atau membagikan struk",
+      "tsd_sections": [
+        "3.5"
+      ],
+      "storyboard_ids": [
+        "SB-17"
+      ],
+      "screen_ids": [
+        "SC-17"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-18",
+      "title": "Menemukan transaksi",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "storyboard_ids": [
+        "SB-18"
+      ],
+      "screen_ids": [
+        "SC-18"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-19",
+      "title": "Melihat/mengedit pesanan dan cetak ulang",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "storyboard_ids": [
+        "SB-19"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-20",
+        "SC-17"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-20",
+      "title": "Melunasi sisa tagihan",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "storyboard_ids": [
+        "SB-20"
+      ],
+      "screen_ids": [
+        "SC-21",
+        "SC-19"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-21",
+      "title": "Membatalkan transaksi",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "storyboard_ids": [
+        "SB-21"
+      ],
+      "screen_ids": [
+        "SC-19",
+        "SC-18"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-22",
+      "title": "Menghapus transaksi tunggal/massal",
+      "tsd_sections": [
+        "3.6"
+      ],
+      "storyboard_ids": [
+        "SB-22"
+      ],
+      "screen_ids": [
+        "SC-18",
+        "SC-22"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-23",
+      "title": "Mencatat pengeluaran",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "storyboard_ids": [
+        "SB-23"
+      ],
+      "screen_ids": [
+        "SC-23",
+        "SC-24"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-24",
+      "title": "Menemukan pengeluaran",
+      "tsd_sections": [
+        "3.7"
+      ],
+      "storyboard_ids": [
+        "SB-24"
+      ],
+      "screen_ids": [
+        "SC-23"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-25",
+      "title": "Melihat laporan transaksi",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "storyboard_ids": [
+        "SB-25"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-26"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-26",
+      "title": "Melihat laporan produk/kategori",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "storyboard_ids": [
+        "SB-26"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-27"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-27",
+      "title": "Melihat laporan pengeluaran",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "storyboard_ids": [
+        "SB-27"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-28"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-28",
+      "title": "Mengekspor Excel",
+      "tsd_sections": [
+        "3.8"
+      ],
+      "storyboard_ids": [
+        "SB-28"
+      ],
+      "screen_ids": [
+        "SC-25",
+        "SC-29"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-29",
+      "title": "Memperbarui profil toko",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "storyboard_ids": [
+        "SB-29"
+      ],
+      "screen_ids": [
+        "SC-30"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-30",
+      "title": "Mengonfigurasi printer/struk",
+      "tsd_sections": [
+        "3.2"
+      ],
+      "storyboard_ids": [
+        "SB-30"
+      ],
+      "screen_ids": [
+        "SC-31",
+        "SC-32"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-31",
+      "title": "Membuat dan mengelola backup",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "storyboard_ids": [
+        "SB-31"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-32",
+      "title": "Memulihkan backup",
+      "tsd_sections": [
+        "3.3"
+      ],
+      "storyboard_ids": [
+        "SB-32"
+      ],
+      "screen_ids": [
+        "SC-33"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-33",
+      "title": "Melihat versi dan opsi update",
+      "tsd_sections": [
+        "3.9"
+      ],
+      "storyboard_ids": [
+        "SB-33"
+      ],
+      "screen_ids": [
+        "SC-34"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-34",
+      "title": "Membuka Usaha Saya",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "storyboard_ids": [
+        "SB-34"
+      ],
+      "screen_ids": [
+        "SC-07",
+        "SC-35"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-35",
+      "title": "Akses laporan bug kontekstual",
+      "tsd_sections": [
+        "3.10"
+      ],
+      "storyboard_ids": [
+        "SB-35"
+      ],
+      "screen_ids": [
+        "SC-36"
+      ],
+      "approval_status": "source_document_only"
+    },
+    {
+      "requirement_ref": "REF-SB-36",
+      "title": "Mengakses perizinan perangkat",
+      "tsd_sections": [
+        "3.1"
+      ],
+      "storyboard_ids": [
+        "SB-36"
+      ],
+      "screen_ids": [
+        "SC-11",
+        "SC-10",
+        "SC-31"
+      ],
+      "approval_status": "source_document_only"
+    }
+  ]
+}

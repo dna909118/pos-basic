@@ -1,0 +1,666 @@
+{
+  "schema_version": "1.0",
+  "status": "draft_only",
+  "catalog": "management/labels/label_catalog.json",
+  "assignments": [
+    {
+      "work_id": "UMB-M01",
+      "kind": "umbrella",
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "labels": [
+        "type::umbrella",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M02",
+      "kind": "umbrella",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::umbrella",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M03",
+      "kind": "umbrella",
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "labels": [
+        "type::umbrella",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M04",
+      "kind": "umbrella",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::umbrella",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M05",
+      "kind": "umbrella",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::umbrella",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M06",
+      "kind": "umbrella",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::umbrella",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "UMB-M07",
+      "kind": "umbrella",
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "labels": [
+        "type::umbrella",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-01",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-02",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-03",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-04",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-05",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-06",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-07",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-08",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-09",
+      "kind": "child",
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-10",
+      "kind": "child",
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-11",
+      "kind": "child",
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-12",
+      "kind": "child",
+      "milestone_id": "M03",
+      "umbrella_id": "UMB-M03",
+      "labels": [
+        "type::task",
+        "area::products",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-13",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-14",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-15",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-16",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-17",
+      "kind": "child",
+      "milestone_id": "M04",
+      "umbrella_id": "UMB-M04",
+      "labels": [
+        "type::task",
+        "area::pos",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-18",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-19",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-20",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-21",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-22",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-23",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-24",
+      "kind": "child",
+      "milestone_id": "M05",
+      "umbrella_id": "UMB-M05",
+      "labels": [
+        "type::task",
+        "area::operations",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-25",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-26",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-27",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-28",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-29",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-30",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-31",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-32",
+      "kind": "child",
+      "milestone_id": "M06",
+      "umbrella_id": "UMB-M06",
+      "labels": [
+        "type::task",
+        "area::reporting-data",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-33",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-34",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-35",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-36",
+      "kind": "child",
+      "milestone_id": "M02",
+      "umbrella_id": "UMB-M02",
+      "labels": [
+        "type::task",
+        "area::auth-settings",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-F01",
+      "kind": "child",
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "labels": [
+        "type::task",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-F02",
+      "kind": "child",
+      "milestone_id": "M01",
+      "umbrella_id": "UMB-M01",
+      "labels": [
+        "type::task",
+        "area::foundation",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-R01",
+      "kind": "child",
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "labels": [
+        "type::task",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    },
+    {
+      "work_id": "CI-R02",
+      "kind": "child",
+      "milestone_id": "M07",
+      "umbrella_id": "UMB-M07",
+      "labels": [
+        "type::task",
+        "area::web-pwa",
+        "priority::untriaged",
+        "workflow::draft",
+        "governance::approval-required"
+      ],
+      "status": "draft_unapproved"
+    }
+  ],
+  "note": "Assignments are authoring metadata, NOT actual remote provider labels and NOT approvals."
+}
