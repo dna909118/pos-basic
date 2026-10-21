@@ -38,3 +38,6 @@ Current known limits: there is no provider API synchronization/enforcement, no l
 
 ## Flutter builder (v0.0.8-r1)
 The Flutter **web builder toolchain and GitHub Actions build workflow are preconfigured** under `builder/flutter/`, `tools/flutter_builder.py`, and `.github/workflows/flutter-builder.yml`. A disposable smoke Flutter project verifies toolchain + Mix + web compilation; when an approved application exists under `app/`, the same CI path compiles and publishes its web-build artifact. No product UI/application code is bundled. Actual Flutter build and CI must still be verified on a live runner. See `builder/flutter/README.md`.
+
+## GitHub Free Private baseline (v0.0.8-r2)
+Configured target is `dna909118/pos-basic` (repository state is **not** verified by this archive). Account stays GitHub **Free**, repo **private**, mode **soft_governance**. Required Human review, CI checks, and avoiding direct pushes to `main` are procedural controls only: native branch protection/rulesets cannot enforce them at this tier. Keep manual agent dispatch with read-only credentials, explicit live approval preflight, artifacts for Human review and no agent merge. See `management/providers/GITHUB_FREE_PRIVATE_GOVERNANCE.md`. No public visibility, paid upgrade, hard-protection claim or provider mutation is included.

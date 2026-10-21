@@ -31,3 +31,6 @@ OpenCode V2 and mini-SWE-agent V2 are alternative coding engines; neither may se
 
 ## Flutter builder contract (v0.0.8-r1)
 Flutter web toolchain configuration is pinned in `builder/flutter/toolchain.json`; `tools/flutter_builder.py` handles doctor/smoke/build; CI lives in `.github/workflows/flutter-builder.yml`. The generated CI smoke app is an isolated toolchain fixture, **not** an authorized product feature. Do not generate or modify `app/` business implementation without the respective approved Child Issue. Do not claim a Flutter build passed unless it ran on a real toolchain.
+
+## GitHub Free Private governance (v0.0.8-r2)
+Active target: `dna909118/pos-basic`; GitHub Free, repository private, `soft_governance`. Native branch protection/rulesets, required PR review, required checks and direct-push prevention are **not enforced by platform** at this tier. Human review and CI-before-merge are mandatory **procedures**, not platform merge gates. The agent dispatcher is manual, read-only and artifact-only; live scope-approval preflight must pass. Never claim `main` is protected, that CI failure technically prevents merge, or that agent tokens confer Human approval. Consult `management/providers/GITHUB_FREE_PRIVATE_GOVERNANCE.md` and policy JSON; do not change account plan, repository visibility, or GitLab portability.

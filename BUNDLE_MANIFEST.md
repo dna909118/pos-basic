@@ -12,3 +12,6 @@
 
 ## v0.0.8-r1 — Flutter builder configuration completion
 This non-destructive release revision adds the Flutter 3.44.0/Dart 3.12.0 stable web-builder contract, pinned Mix 2.2.2, `tools/flutter_builder.py`, dry-run/offline tests and GitHub Actions `flutter-builder.yml`. It supports ephemeral smoke compilation independent of business application source and building a future approved `app/` with committed lockfile. No Flutter feature implementation is included. The historical v0.0.8 ZIP remains intact.
+
+## v0.0.8-r2 — GitHub Free private policy
+Non-destructive configuration refinement: set `dna909118/pos-basic` as intended provider target, retain GitHub Free/private and GitLab portability. Add machine-readable `soft_governance` policy, explanatory contract and offline enforcement-consistency tests. CI and Human PR review remain procedural: no platform-enforced branch rules, required checks or merge-review gates. Existing manual artifact-only dispatch and Flutter builder stay intact. No live provider settings, Issue, PR or source specifications were modified.
