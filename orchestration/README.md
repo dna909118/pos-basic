@@ -8,7 +8,7 @@ This is a **fail-closed, artifact-only pilot**. No automatic issue creation, sch
 2. `python tools/validate_governance.py`, `python -m unittest discover -s tests -v`, then FTS5 `build/status/query/lookup`.
 3. After explicit Human approval, publish labels and Milestone/Issue drafts; verify exact GitHub IDs and URLs; fill `rag/provider_bindings.json` (status `published`, provider refs complete) through an authorized PR. Do not delete or rewrite canonical IDs.
 4. In GitHub repository settings, configure `BYAR_HUMAN_APPROVERS` as a repository **variable** containing explicitly authorized GitHub logins separated by commas. These must not be bot accounts.
-5. Set `BYAR_AGENT_MODEL` as a repository variable for the chosen engine. Set `BYAR_MODEL_API_KEY` in GitHub **Secrets** for the model provider. The included workflow uses `OPENAI_API_KEY`; adapt the worker environment deliberately if using another provider. The account's ChatGPT subscription is not an API key.
+5. Set `BYAR_AGENT_MODEL` as a repository variable for the chosen engine. Set `BYAR_MODEL_API_KEY` in GitHub **Secrets** for the model provider. For mini-SWE-agent with DeepSeek, use `deepseek/deepseek-chat` and a DeepSeek API key; the workflow maps the secret to `DEEPSEEK_API_KEY` as well as the existing `OPENAI_API_KEY` compatibility binding. No custom API base is required. See `agents/mini-swe-agent/README.md`. The account's ChatGPT subscription is not an API key.
 6. For each approved parent and child issue, Human writes a **standalone full-line** comment in its GitHub Issue (not the PR):
 
    `BYAR-APPROVE UMB-M01 revision=draft-1 sha256=<64-hex SHA256 of management/drafts/umbrellas/UMB-M01.md>`

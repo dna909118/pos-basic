@@ -96,11 +96,13 @@ jobs:
         run: npm install --global @opencode/cli
       - name: Install mini-SWE-agent
         if: ${{ inputs.engine == 'mini-swe' }}
-        run: python -m pip install 'mini-swe-agent>=2,<3'
+        run: python -m pip install 'mini-swe-agent==2.4.6'
       - name: Execute authorized worker (artifact-only)
         env:
           BYAR_AGENT_MODEL: ${{ vars.BYAR_AGENT_MODEL }}
           OPENAI_API_KEY: ${{ secrets.BYAR_MODEL_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.BYAR_MODEL_API_KEY }}
+          MSWEA_CONFIGURED: 'true'
         run: |
           python orchestration/dispatcher/run_agent.py \
             --manifest dispatch-input/dispatch.json --out agent-outputs \
